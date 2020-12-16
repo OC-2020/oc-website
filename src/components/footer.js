@@ -129,7 +129,6 @@ export default () => {
           </Flex>
 
           <Flex sx={{
-            width: '460px',
             height: [null, null, '90px'],
             flexDirection: 'column',
             justifyContent: 'space-between'
