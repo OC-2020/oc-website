@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Eastman Trial';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Eastman Trial Black'), url('EastmanTrial-Black.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Eastman Trial';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Eastman Trial Black Italic'), url('EastmanTrial-BlackItalic.woff') format('woff');
+}

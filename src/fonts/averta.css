@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Averta";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("2999413/2119d963-297f-4024-af04-ee6b88a2bc06.woff2") format("woff2"),
+  url("2999413/30134814-9080-4acf-81a9-097e6b15d5f3.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+  src: url("2999425/292720f3-847d-49f1-a0b8-9a1c77082d9b.woff2") format("woff2"),
+  url("2999425/ab8729c4-2109-4a9a-9e93-5db03298b350.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("2999457/46ff09e9-cb44-4de1-adcf-781d27796ba4.woff2") format("woff2"),
+  url("2999457/adc30df9-5cd7-4814-ab0f-f1c089077bca.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("2999453/b8036f1d-f2c6-40f1-99ec-f346991abdfb.woff2") format("woff2"),
+  url("2999453/57bb70db-ef7e-4526-90a3-6dab5c501431.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("2999435/42694733-94fe-4cf6-83bb-44e650d69115.woff2") format("woff2"),
+  url("2999435/63d0d1f1-c2c0-497a-94ca-b87167de78d6.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("2999443/86d5973d-12f8-4e06-b9d2-35bb8d8d9326.woff2") format("woff2"),
+  url("2999443/269bd08f-82a0-4b7a-8627-31e78a778ef5.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("2999441/1ba119eb-5d5b-4595-a095-34c3a441519f.woff2") format("woff2"),
+  url("2999441/37f125be-65a4-414e-8051-53e85c91ce82.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("2999419/37e2dcfc-a031-4fca-b814-db8764f65033.woff2") format("woff2"),
+  url("2999419/d1fbb290-d224-44cb-890a-f3f5109881fd.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("2999461/657d836c-8a3a-4719-8b6b-4b6204c62a49.woff2") format("woff2"),
+  url("2999461/880d5058-baf8-4898-baa6-13e810a72d96.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Averta";
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("2999459/f61b6194-216e-447d-878f-f5fdea6b02a6.woff2") format("woff2"),
+  url("2999459/64b622b7-350c-45ac-a498-87716ed98deb.woff") format("woff");
+}
+
