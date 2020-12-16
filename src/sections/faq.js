@@ -42,7 +42,7 @@ export default () => {
 		},
 		{
 			question: 'Which Costco locations can I find your oat milk in?',
-			answer: "We are available at the following Costco warehouses. We're also expanding! If there's a specific Costco warehouse you'd like to find out product in, tell us in the contact form below!<br /><br />• Thorncliffe - 42 Overlea Blvd, Toronto, ON M4H 1B6<br />• Etobicoke - 50 Queen Elizabeth Blvd, Etobicoke, ON M8Z<br />• Mississauga South - 3180 Laird Rd, Mississauga, ON L5L 6A5<br />• Central Mississauga - 1570 Dundas St E, Mississauga, ON L4X 1L4<br />• Richmond Hill - 35 John Birchall Rd, Richmond Hill, ON L4S 0B2<br />• Waterloo - 930 Erb St W, Waterloo, ON N2J 3Z4<br /><br />Make sure to look in the milk-alternatives section, usually found across the dairy fridge!"
+			answer: "We are available at the following Costco warehouses. We're also expanding! If there's a specific Costco warehouse you'd like to find our product in, tell us in the contact form below!<br /><br />• Thorncliffe - 42 Overlea Blvd, Toronto, ON M4H 1B6<br />• Etobicoke - 50 Queen Elizabeth Blvd, Etobicoke, ON M8Z<br />• Mississauga South - 3180 Laird Rd, Mississauga, ON L5L 6A5<br />• Central Mississauga - 1570 Dundas St E, Mississauga, ON L4X 1L4<br />• Richmond Hill - 35 John Birchall Rd, Richmond Hill, ON L4S 0B2<br />• Waterloo - 930 Erb St W, Waterloo, ON N2J 3Z4<br /><br />Make sure to look in the milk-alternatives section, usually found across the dairy fridge!"
 		},
 		{
 			question: 'Where can I find your oat milk in Canada?',
