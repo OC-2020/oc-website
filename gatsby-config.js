@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Oat Canada - Shop Online!`,
-    description: `World's Only Zero Sugar & Keto Friendly Oat Milk – Non-GMO, Gluten Free, Vegan Certified, Glyphosate Residue-Free, Diabetic Friendly`,
+    description: `World's Only Zero Sugar & Keto Friendly Oat Milk – Non-GMO, Gluten Free, Vegan Certified, Glyphosate Residue-Free, `,
     author: `@OatCanada`,
     url: `https://oatcanada.com`,
     siteUrl: `https://oatcanada.com`,
