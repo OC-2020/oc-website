@@ -46,7 +46,7 @@ export default () => {
 		},
 		{
 			question: 'Where can I find your oat milk in Canada?',
-			answer: "Besides Costco and Well.ca, you can find also find our product at Local Independents in Eastern Canada below. We're quickly expanding, so if there is a specific retailer/independent you'd like to find our product in, be sure to let us know in the contact form below!<br /><br />Amici Foods<br />Battaglias<br />Coco Market<br />Dworkins<br />Eagle Lake Country Market<br />FH Fine Foods<br />La Bottega<br />La Moisson<br />O & V Tasting Room Elmira<br />On the Move Organics<br />Simply Zen<br />Vincenzo’s<br />Yummy Market<br />Vested Interest<br />Market Fresh"
+			answer: "Besides Costco and Well.ca, you can also find our product at Local Independents in Eastern Canada below. We're quickly expanding, so if there is a specific retailer/independent you'd like to find our product in, be sure to let us know in the contact form below!<br /><br />Amici Foods<br />Battaglias<br />Coco Market<br />Dworkins<br />Eagle Lake Country Market<br />FH Fine Foods<br />La Bottega<br />La Moisson<br />O & V Tasting Room Elmira<br />On the Move Organics<br />Simply Zen<br />Vincenzo’s<br />Yummy Market<br />Vested Interest<br />Market Fresh"
 		}
 	]
 
