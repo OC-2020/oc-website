@@ -26,7 +26,7 @@ export default () => {
 				position: 'relative',
 				mt: ['26rem', '26rem', '20rem'],
 				pt: [5, 5, 0],
-				height: ['340px', '340px', '400px'],
+				height: ['360px', '360px', '400px'],
 				backgroundColor: '#44474f',
 				borderTop: '1px solid #44474f',
 				borderBottom: '1px solid #44474f',

@@ -94,7 +94,7 @@ export default (props) => {
 						top: '12px',
 						right: '12px',
 						width: '32px',
-						height: '26px',
+						height: '32px',
 						px: 0,
 						pb: '6px',
 						fontSize: '42px',

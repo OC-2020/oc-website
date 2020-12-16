@@ -166,14 +166,14 @@ export default {
     h1: {
       m: '0px',
       fontFamily: 'eastman',
-      fontSize: ['36px', '36px', '100px'],
+      fontSize: ['32px', '32px', '100px'],
       lineHeight: ['40px', '40px', '105px'],
       textTransform: 'uppercase'
     },
     h2: {
       m: '0px',
       fontFamily: 'eastman',
-      fontSize: ['36px', '36px', '54px'],
+      fontSize: ['32px', '32px', '54px'],
       lineHeight: ['40px', '40px', '49px'],
       textTransform: 'uppercase'
     },

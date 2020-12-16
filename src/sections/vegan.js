@@ -29,7 +29,7 @@ export default () => {
 		}}>
 			<h1 sx={{
 				m: 0,
-				fontSize: ['9vw', '7.85vw', '7.8vw'],
+				fontSize: ['8vw', '7.85vw', '7.8vw'],
 				lineHeight: ['7.25vw', '6.5vw', '6vw'],
 				textTransform: 'uppercase',
 				fontFamily: 'eastman',
