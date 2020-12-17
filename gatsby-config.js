@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Oat Canada - Shop Online!`,
+    title: `Barista Approved Zero Sugar Oat Milk in Canada  - Oat Canada`,
     description: `Looking for an oat milk that is actually Unsweetened & Keto Friendly? Try our Oat Canada Barista 0g Sugar Oat Milk today! Now available at Costco.`,
     author: `@OatCanada`,
     url: `https://oatcanada.com`,
