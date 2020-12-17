@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Oat Canada - Shop Online!`,
-    description: `World's Only Zero Sugar & Keto Friendly Oat Milk – Non-GMO, Gluten Free, Vegan Certified, Glyphosate Residue-Free, Diabetic Friendly`,
+    description: `Looking for an oat milk that is actually Unsweetened & Keto Friendly? Try our Oat Canada Barista 0g Sugar Oat Milk today! Now available at Costco.`,
     author: `@OatCanada`,
     url: `https://oatcanada.com`,
     siteUrl: `https://oatcanada.com`,
