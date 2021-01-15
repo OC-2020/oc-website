@@ -6,7 +6,7 @@ import Gmo from '../assets/highlights/gmo.svg'
 import Vegan from '../assets/highlights/vegan.svg'
 import Glyphosate from '../assets/highlights/glyphosate.svg'
 import Kosher from '../assets/highlights/kosher.svg'
-import Gluten from '../assets/highlights/gluten.svg'
+
 import Keto from '../assets/highlights/keto.svg'
 import Foam from '../assets/highlights/foam.svg'
 import Calories from '../assets/highlights/calories.svg'
