@@ -99,10 +99,7 @@ export default () => {
 						<Text>Kosher<br />Certified</Text>
 					</Highlight>
 
-					<Highlight>
-						<Gluten />
-						<Text>Gluten-Free*</Text>
-					</Highlight>
+					
 
 					<Highlight>
 						<Keto />
