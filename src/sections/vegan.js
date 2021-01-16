@@ -10,7 +10,7 @@ export default () => {
   } = useStaticQuery(
     graphql`
       query {
-        carton: file(relativePath: { eq: "oat-canada-NFT_Ingredients.png" }) {
+        carton: file(relativePath: { eq: "Oat-Canada_NFT_Ingredients-2.png" }) {
           childImageSharp {
             fluid(maxWidth: 854, quality: 95) {
               ...GatsbyImageSharpFluid_withWebp_noBase64
