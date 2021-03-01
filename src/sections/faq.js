@@ -42,7 +42,7 @@ export default () => {
 		},
 		{
 			question: 'Which Costco locations can I find your oat milk in?',
-			answer: "We are available at the following Costco warehouses. We're also expanding! If there's a specific Costco warehouse you'd like to find our product in, tell us in the contact form below!<br /><br />• Thorncliffe - 42 Overlea Blvd, Toronto, ON M4H 1B6<br />• Etobicoke - 50 Queen Elizabeth Blvd, Etobicoke, ON M8Z<br />• Mississauga South - 3180 Laird Rd, Mississauga, ON L5L 6A5<br />• Central Mississauga - 1570 Dundas St E, Mississauga, ON L4X 1L4<br />• Richmond Hill - 35 John Birchall Rd, Richmond Hill, ON L4S 0B2<br />• Waterloo - 930 Erb St W, Waterloo, ON N2J 3Z4<br /><br />Make sure to look in the milk-alternatives section, usually found across the dairy fridge!"
+			answer: "We are available at the following Costco warehouses. We're also expanding! If there's a specific Costco warehouse you'd like to find our product in, tell us in the contact form below!<br /><br />• Thorncliffe - 42 Overlea Blvd, Toronto, ON M4H 1B6<br />• Etobicoke - 50 Queen Elizabeth Blvd, Etobicoke, ON M8Z 1M1<br />• Richmond Hill - 35 John Birchall Rd, Toronto, ON L4S 0B2<br />• Mississauga South - 3180 Laird Rd, Mississauga, ON L5L 6A5<br />• Ottawa - 1405 Blair Towers Pl, Ottawa, ON K1J 1A5<br />• Montreal - 300 Rue Bridge, Montreal, QC H3K 2C3<br /><br /><br />• Saint-Bruno - 1000 Boulevard Saint-Bruno, Saint-Bruno-de-Montarville, QC J3V 6J6<br /><br />• Pointe Claire - 5701 Transcanada Nord, Pointe Claire, QC H9R 1B7<br /><br />Make sure to look in the milk-alternatives section, usually found across the dairy fridge!"
 		},
 		{
 			question: 'Where can I find your oat milk in Canada?',
