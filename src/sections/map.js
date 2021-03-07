@@ -23,7 +23,6 @@ export default () => {
       style={{
         position: "relative",
         width: "100%",
-        // height: "722px",
       }}
       sx={{
         height: ["500px", "600px", "722px"],
@@ -34,10 +33,10 @@ export default () => {
           key: "AIzaSyB9BcZb7i1KQlno4qcjJBXWHZBAllvLKNc",
         }}
         defaultCenter={{
-          lat: 44.4196637684398,
-          lng: -72.01570991473781,
+          lat: 43.65314637810758,
+          lng: -79.38177755709162,
         }}
-        defaultZoom={6}
+        defaultZoom={12}
         hideSettings={true}
         yesIWantToUseGoogleMapApiInternals
         onGoogleApiLoaded={({ map }) => {
