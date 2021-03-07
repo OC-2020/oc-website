@@ -1,97 +1,45 @@
 /** @jsx jsx */
-import { jsx, Container } from "theme-ui"
+import { jsx, Styled, Container } from "theme-ui"
 import Layout from "../components/layout"
-import GoogleMapReact from "google-map-react"
-import stores from "../utils/stores"
-import Cart from "../assets/cart.svg"
-import Tea from "../assets/tea.svg"
-
-const Store = ({ icon, lat, lng, onClick }) => {
-  return icon === "cart" ? (
-    <Cart onClick={onClick} lat={lat} lng={lng} />
-  ) : (
-    <Tea onClick={onClick} lat={lat} lng={lng} />
-  )
-}
-
-const mapOptions = {
-  fullscreenControl: false,
-  zoomControl: false,
-}
+import Map from "../sections/map"
+import Forms from "../sections/forms"
+import CartOutline from "../assets/cart_outline.svg"
+import TeaOutline from "../assets/tea_outline.svg"
 
 export default () => {
-  const handleClick = (store) => {
-    console.log(store)
-  }
-
   return (
     <Layout>
-      <Container>
-        <h1>STORE LOL</h1>
+      <Container sx={{ mt: [8, 8, 0], pb: 8 }}>
+        <Styled.h1 sx={{ fontSize: ["50px", "50px", "116px"] }}>
+          Find Us
+        </Styled.h1>
 
-        <div
-          style={{
-            position: "relative",
-            height: "722px",
-            width: "100%",
-            ".gm-fullscreen-control": {
-              border: "2px solid tomato !important",
+        <Styled.h3
+          sx={{
+            display: ["block", "block", "flex"],
+            alignItems: "center",
+            mt: [2, 2, 0],
+            mb: [2, 4, 6],
+            lineHeight: "36px",
+            svg: {
+              ml: 2,
+              mr: [6, 6, 4],
+            },
+            br: {
+              display: ["block", "block", "none"],
             },
           }}
         >
-          <GoogleMapReact
-            bootstrapURLKeys={{
-              key: "AIzaSyB9BcZb7i1KQlno4qcjJBXWHZBAllvLKNc",
-            }}
-            defaultCenter={{
-              lat: 43.65317772992091,
-              lng: -79.3831899644022,
-            }}
-            defaultZoom={13}
-            hideSettings={true}
-            options={mapOptions}
-          >
-            {stores.map((store, i) => (
-              <Store
-                key={i}
-                icon={store.icon}
-                lat={store.lat}
-                lng={store.lng}
-                onClick={handleClick(store)}
-              />
-            ))}
-          </GoogleMapReact>
+          In grocery stores
+          <CartOutline />
+          <br />
+          & Restaurants
+          <TeaOutline />
+        </Styled.h3>
 
-          <svg
-            className="slanted-top"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-            preserveAspectRatio="none"
-            sx={{
-              position: "absolute",
-              top: 0,
-              width: "100%",
-              height: "100px",
-            }}
-          >
-            <polygon fill="white" points="0,0 0,100 100,0" />
-          </svg>
+        <Map />
 
-          <svg
-            className="slanted-bottom"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 100 100"
-            preserveAspectRatio="none"
-            sx={{
-              position: "absolute",
-              bottom: 0,
-              width: "100%",
-              height: "100px",
-            }}
-          >
-            <polygon fill="white" points="100,0 100,100 0,100" />
-          </svg>
-        </div>
+        <Forms />
       </Container>
     </Layout>
   )

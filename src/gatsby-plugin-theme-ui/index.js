@@ -153,7 +153,17 @@ export default {
       backgroundColor: "white",
       ":focus": {
         border: "1px solid",
-        borderColor: "#aaa",
+        borderColor: "primary",
+        outline: "none",
+      },
+    },
+    select: {
+      p: "1.25rem",
+      backgroundColor: "white",
+      ":focus": {
+        border: "1px solid",
+        borderColor: "primary",
+        outline: "none",
       },
     },
     textarea: {

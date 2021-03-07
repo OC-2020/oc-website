@@ -1,11 +1,11 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 
-export default ({ showMenu, setShowMenu }) => (
+export default ({ showMenu, setShowMenu, ...rest }) => (
   <button
+    {...rest}
     aria-label="Toggle menu"
     aria-expanded={showMenu}
-    showMenu={showMenu}
     onClick={() => setShowMenu(!showMenu)}
     sx={{
       display: ["flex", "flex", "none"],

@@ -7,7 +7,7 @@ import CloseBtn from "./closeBtn"
 export default ({ showMenu, setShowMenu }) => (
   <nav
     sx={{
-      position: "absolute",
+      position: "fixed",
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",

@@ -12,7 +12,11 @@ export default () => {
   const [showMenu, setShowMenu] = useState(false)
 
   return (
-    <header sx={{ height: ["auto", "auto", "200px"] }}>
+    <header
+      sx={{
+        height: ["auto", "auto", "200px"],
+      }}
+    >
       <Container
         sx={{
           display: "flex",
