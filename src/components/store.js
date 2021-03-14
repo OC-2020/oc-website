@@ -14,6 +14,15 @@ export default forwardRef(({ icon, lat, lng, store, onClick }, ref) => (
     ref={ref}
     sx={{
       position: "relative",
+      svg: {
+        transform: "scale(.75)",
+        transition: "transform .1s ease-in-out",
+      },
+      ":hover": {
+        svg: {
+          transform: "scale(.9)",
+        },
+      },
     }}
   >
     <div

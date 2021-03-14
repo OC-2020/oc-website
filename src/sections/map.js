@@ -2,19 +2,20 @@
 import { jsx } from "theme-ui"
 import { useRef } from "react"
 import GoogleMapReact from "google-map-react"
-import stores from "../utils/stores"
 import Store from "../components/store"
 
 const mapOptions = {
   fullscreenControl: false,
   zoomControl: false,
+  gestureHandling: "none",
 }
 
-export default () => {
+export default ({ stores, setSelectedStore, latlng, zoomed }) => {
   const mapRef = useRef()
   const storeRefs = stores.map(() => useRef())
 
-  const handleClick = (ref) => {
+  const handleClick = (store, ref) => {
+    setSelectedStore(store)
     ref.current.classList.toggle("show-tooltip")
   }
 
@@ -33,10 +34,12 @@ export default () => {
           key: "AIzaSyB9BcZb7i1KQlno4qcjJBXWHZBAllvLKNc",
         }}
         defaultCenter={{
-          lat: 43.65314637810758,
-          lng: -79.38177755709162,
+          lat: 44.74295282305372,
+          lng: -65.5159970265489,
         }}
-        defaultZoom={12}
+        center={latlng}
+        defaultZoom={5.7}
+        zoom={zoomed ? 15 : 5.7}
         hideSettings={true}
         yesIWantToUseGoogleMapApiInternals
         onGoogleApiLoaded={({ map }) => {
@@ -52,7 +55,7 @@ export default () => {
             lat={store.lat}
             lng={store.lng}
             ref={storeRefs[i]}
-            onClick={() => handleClick(storeRefs[i])}
+            onClick={() => handleClick(store, storeRefs[i])}
           />
         ))}
       </GoogleMapReact>

@@ -17,7 +17,7 @@ export default ({ showMenu, setShowMenu }) => (
       right: "0",
       height: "100vh",
       background: "white",
-      zIndex: 2,
+      zIndex: 99999,
       textAlign: "center",
       transform: showMenu ? "translate3d(0, 0, 0)" : "translate3d(100%, 0, 0)",
       transition: "transform .2s ease-in-out",
