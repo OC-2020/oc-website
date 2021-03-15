@@ -49,13 +49,13 @@ export default ({ setSelectedStore }) => {
               sx={{
                 mt: 0,
                 mb: "4px",
-                fontSize: "22px",
+                fontSize: ["20px", "20px", "22px"],
                 fontWeight: 600,
                 textTransform: "uppercase",
                 fontFamily: "barlow",
               }}
             >
-              404, Not Found
+              Can't find your fav store?
             </h2>
             <p
               sx={{
