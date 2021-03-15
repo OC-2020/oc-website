@@ -7,16 +7,15 @@ import Forms from "../sections/forms"
 import CartOutline from "../assets/cart_outline.svg"
 import TeaOutline from "../assets/tea_outline.svg"
 import StoreTypeahead from "../components/StoreTypeahead"
-import stores from "../utils/stores"
+import storeData from "../utils/storeData"
 
 export default () => {
   const isMobile = typeof window !== "undefined" && window.innerWidth < 600
-
   const [latlng, setLatlng] = useState(
     isMobile
       ? {
-          lat: 44.74295282305372,
-          lng: -65.5289970265489,
+          lat: 41.74295282305372,
+          lng: -70.8589970265489,
         }
       : {
           lat: 44.74295282305372,
@@ -30,6 +29,8 @@ export default () => {
     if (!selectedStore) {
       return
     }
+
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 600
 
     // const postal = stores[selectedStore.id].address.slice(-7, -4)
 
@@ -103,7 +104,7 @@ export default () => {
         </Flex>
 
         <Map
-          stores={stores}
+          stores={storeData}
           selectedStore={selectedStore}
           setSelectedStore={setSelectedStore}
           latlng={latlng}
@@ -111,7 +112,7 @@ export default () => {
         />
       </section>
 
-      <Container sx={{ pb: 8 }}>
+      <Container sx={{ pb: 8 }} id="forms">
         <Forms />
       </Container>
     </Layout>

@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import React, { useState } from "react"
+import { Link } from "gatsby"
 import { jsx, Styled, Flex, Box, Text, Button } from "theme-ui"
 import { useStaticQuery, graphql } from "gatsby"
 import { useMediaQuery } from "react-responsive"
@@ -10,6 +11,7 @@ import Arrow from "../assets/arrow-btn.svg"
 
 Modal.setAppElement(`#___gatsby`)
 Modal.defaultStyles.overlay.backgroundColor = "rgba(0,0,0,.5)"
+Modal.defaultStyles.overlay.zIndex = 10
 
 export default (props) => {
   const isDesktop = useMediaQuery({ minWidth: "1200px" })
@@ -46,6 +48,7 @@ export default (props) => {
       transform: "translate(-50%, -50%)",
       border: "1px solid #44474f",
       borderRadius: "16px",
+      zIndex: 999,
     },
   }
 
@@ -57,7 +60,7 @@ export default (props) => {
       right: "0",
       bottom: "0",
       borderColor: "#44474F",
-      zIndex: 2,
+      zIndex: 999,
       padding: "0px",
     },
   }
@@ -65,8 +68,8 @@ export default (props) => {
   const closeModal = () => setModalOpen(false)
 
   const convert = (conversion) => {
-    typeof window !== "undefined" &&
-      window.gtag("event", "conversion", { send_to: conversion })
+    // typeof window !== "undefined" &&
+    //   window.gtag("event", "conversion", { send_to: conversion })
   }
 
   return (
@@ -288,6 +291,14 @@ export default (props) => {
             </Flex>
           </Flex>
         </Flex>
+        <Text
+          sx={{
+            my: 2,
+            textAlign: "center",
+          }}
+        >
+          I want to shop <Link to="/stores">In-Stores</Link> instead.
+        </Text>
       </Modal>
     </React.Fragment>
   )

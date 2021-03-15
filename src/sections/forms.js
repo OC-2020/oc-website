@@ -1,10 +1,8 @@
 /** @jsx jsx */
-import { jsx, Styled, Container, Flex, Input, Select, Button } from "theme-ui"
+import { jsx, Styled, Container, Flex, Input, Button } from "theme-ui"
 import Arrow from "../assets/arrow-btn.svg"
 
 export default () => {
-  const svgArrow = `url("data:image/svg+xml;utf8,</svg>")`
-
   return (
     <Container
       as="section"
@@ -32,6 +30,8 @@ export default () => {
 
         <Flex
           as="form"
+          action="https://usebasin.com/f/b8de600d859d"
+          method="POST"
           sx={{
             flexDirection: "column",
             justifyContent: "space-between",
@@ -48,10 +48,9 @@ export default () => {
             name="province"
             placeholder="Province"
             sx={{
-              backgroundColor: "transparent",
               background:
                 "url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 100% 50%",
-              "-webkit-font-smoothing": "antialiased",
+              WebkitFontSmoothing: "antialiased",
               backgroundSize: "24px",
               backgroundPosition: "98%",
               fontFamily: "inherit",
@@ -69,6 +68,10 @@ export default () => {
               color: "inherit",
               padding: "1.25rem",
               backgroundColor: "white",
+              "&:focus": {
+                outline: "none",
+                borderColor: "primary",
+              },
             }}
           >
             <option value="">Province</option>
@@ -95,6 +98,8 @@ export default () => {
 
         <Flex
           as="form"
+          action="https://usebasin.com/f/07f49a395e1c"
+          method="POST"
           sx={{
             flexDirection: "column",
             justifyContent: "space-between",

@@ -1,23 +1,37 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { useRef } from "react"
+import { useEffect, useRef } from "react"
 import GoogleMapReact from "google-map-react"
-import Store from "../components/store"
+import StoreMarker from "../components/storeMarker"
 
 const mapOptions = {
   fullscreenControl: false,
   zoomControl: false,
-  gestureHandling: "none",
+  gestureHandling: "cooperative",
 }
 
-export default ({ stores, setSelectedStore, latlng, zoomed }) => {
+export default ({
+  stores,
+  setSelectedStore,
+  selectedStore,
+  latlng,
+  zoomed,
+}) => {
+  const isMobile = typeof window !== "undefined" && window.innerWidth < 600
   const mapRef = useRef()
   const storeRefs = stores.map(() => useRef())
 
-  const handleClick = (store, ref) => {
+  const handleClick = (store, key) => {
     setSelectedStore(store)
-    ref.current.classList.toggle("show-tooltip")
+
+    storeRefs[key].current.classList.toggle("show-tooltip")
   }
+
+  useEffect(() => {
+    if (!selectedStore) return
+
+    storeRefs[selectedStore.id - 1].current.classList.add("show-tooltip")
+  }, [storeRefs, selectedStore])
 
   return (
     <div
@@ -33,13 +47,10 @@ export default ({ stores, setSelectedStore, latlng, zoomed }) => {
         bootstrapURLKeys={{
           key: "AIzaSyB9BcZb7i1KQlno4qcjJBXWHZBAllvLKNc",
         }}
-        defaultCenter={{
-          lat: 44.74295282305372,
-          lng: -65.5159970265489,
-        }}
         center={latlng}
-        defaultZoom={5.7}
-        zoom={zoomed ? 15 : 5.7}
+        // defaultZoom={isMobile ? 4 : 5.7}
+        // zoom={zoomed ? 15 : 5.7}
+        zoom={zoomed ? 15 : isMobile ? 4.5 : 5.7}
         hideSettings={true}
         yesIWantToUseGoogleMapApiInternals
         onGoogleApiLoaded={({ map }) => {
@@ -48,14 +59,14 @@ export default ({ stores, setSelectedStore, latlng, zoomed }) => {
         options={mapOptions}
       >
         {stores.map((store, i) => (
-          <Store
+          <StoreMarker
             key={i}
             store={store}
             icon={store.icon}
             lat={store.lat}
             lng={store.lng}
             ref={storeRefs[i]}
-            onClick={() => handleClick(store, storeRefs[i])}
+            onClick={() => handleClick(store, i)}
           />
         ))}
       </GoogleMapReact>

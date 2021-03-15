@@ -1,14 +1,14 @@
 /** @jsx jsx */
 import { jsx, Flex } from "theme-ui"
 import { useState } from "react"
-import stores from "../utils/stores"
+import storeData from "../utils/storeData"
 import Cart from "../assets/cart.svg"
 import Tea from "../assets/tea.svg"
 import SearchIcon from "../assets/searchIcon.svg"
 import NotFound from "../assets/notFound.svg"
 
 export default ({ setSelectedStore }) => {
-  const [suggestions, setSuggestions] = useState(stores)
+  const [suggestions, setSuggestions] = useState(storeData)
   const [searchText, setSearchText] = useState("")
 
   const handleStoreClick = (store) => {
@@ -63,8 +63,8 @@ export default ({ setSelectedStore }) => {
                 fontSize: "16px",
               }}
             >
-              Fill out the form below so we know which store you’d like to find
-              Oat Canada in.
+              Fill out the <a href="#forms">form below</a> so we know which
+              store you’d like to find Oat Canada in.
             </p>
           </div>
         </Flex>
@@ -83,7 +83,7 @@ export default ({ setSelectedStore }) => {
                 pt: 6,
               },
               ":last-of-type": {
-                pb: 4,
+                pb: 6,
               },
               svg: {
                 mr: 4,
@@ -129,14 +129,12 @@ export default ({ setSelectedStore }) => {
 
   const handleChange = (e) => {
     const text = e.target.value
-
-    setSearchText(text)
-
-    const filteredStores = stores.filter((store) =>
+    const filteredStores = storeData.filter((store) =>
       store.address.toLowerCase().includes(text)
     )
 
-    setSuggestions(text.length < 1 ? [] : filteredStores)
+    setSearchText(text)
+    setSuggestions(text.length < 1 ? storeData : filteredStores)
   }
 
   return (
@@ -148,7 +146,7 @@ export default ({ setSelectedStore }) => {
         height: "85px",
         borderRadius: "8px",
         zIndex: 2,
-        mr: [0, 0, "6vw"],
+        mr: [0, 0, "4vw"],
       }}
     >
       <div
@@ -164,7 +162,7 @@ export default ({ setSelectedStore }) => {
         <input
           type="text"
           onChange={handleChange}
-          placeholder="City/Postal Code"
+          placeholder="Search by City"
           sx={{
             width: "100%",
             height: "45px",
