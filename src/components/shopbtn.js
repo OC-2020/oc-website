@@ -68,8 +68,8 @@ export default (props) => {
   const closeModal = () => setModalOpen(false)
 
   const convert = (conversion) => {
-    // typeof window !== "undefined" &&
-    //   window.gtag("event", "conversion", { send_to: conversion })
+    typeof window !== "undefined" &&
+      window.gtag("event", "conversion", { send_to: conversion })
   }
 
   return (
