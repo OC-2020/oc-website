@@ -15,7 +15,7 @@ export default () => {
     isMobile
       ? {
           lat: 41.74295282305372,
-          lng: -70.8589970265489,
+          lng: -70.9589970265489,
         }
       : {
           lat: 44.74295282305372,
@@ -32,18 +32,9 @@ export default () => {
 
     const isMobile = typeof window !== "undefined" && window.innerWidth < 600
 
-    // const postal = stores[selectedStore.id].address.slice(-7, -4)
-
-    // console.log(stores[selectedStore.id])
-    // console.log(postal)
-
-    // const filteredStores = stores.filter((store) =>
-    //   store.address.includes(postal)
-    // )
-
     const coords = {
       lat: selectedStore.lat,
-      lng: isMobile ? selectedStore.lng : selectedStore.lng + 0.0095,
+      lng: isMobile ? selectedStore.lng + 0.0009 : selectedStore.lng + 0.0095,
     }
 
     setLatlng(coords)

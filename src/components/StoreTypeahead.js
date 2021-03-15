@@ -23,7 +23,7 @@ export default ({ setSelectedStore }) => {
         top: "90px",
         left: 0,
         width: ["100%", "100%", "360px"],
-        maxHeight: ["500px", "500px", "736px"],
+        maxHeight: ["500px", "500px", "700px"],
         overflowY: "auto",
         zIndex: 2,
         background: "white",
@@ -74,6 +74,8 @@ export default ({ setSelectedStore }) => {
             key={i}
             sx={{
               alignItems: "center",
+              minHeight: "140px",
+              height: "100%",
               mx: 6,
               py: 4,
               borderTop: "1px solid rgba(68, 71, 79, 0.3)",
@@ -130,7 +132,11 @@ export default ({ setSelectedStore }) => {
   const handleChange = (e) => {
     const text = e.target.value
     const filteredStores = storeData.filter((store) =>
-      store.address.toLowerCase().includes(text)
+      store.address
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .includes(text.toLowerCase())
     )
 
     setSearchText(text)
@@ -152,7 +158,6 @@ export default ({ setSelectedStore }) => {
       <div
         sx={{
           py: 2,
-          px: 6,
           width: "100%",
           borderRadius: "8px",
           boxShadow: "0px 6px 35px 5px rgb(137 145 158 / 28%)",
@@ -166,6 +171,7 @@ export default ({ setSelectedStore }) => {
           sx={{
             width: "100%",
             height: "45px",
+            px: 6,
             border: "none",
             ":focus": {
               outline: "none",

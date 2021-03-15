@@ -35,6 +35,9 @@ export default ({ children, hasHero }) => {
           "::selection": {
             backgroundColor: "#ffb3d2",
           },
+          html: {
+            scrollBehavior: "smooth",
+          },
           body: {
             margin: 0,
             overflowX: "hidden",
