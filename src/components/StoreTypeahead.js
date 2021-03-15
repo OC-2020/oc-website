@@ -173,6 +173,7 @@ export default ({ setSelectedStore }) => {
             height: "45px",
             px: 6,
             border: "none",
+            caretColor: "black",
             ":focus": {
               outline: "none",
             },
