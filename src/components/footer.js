@@ -8,14 +8,14 @@ import {
   Text,
   Input,
   Button,
-} from "theme-ui"
-import { Link } from "gatsby"
-import Logo from "../images/logo"
-import ArrowBtn from "../components/arrowbtn"
-import Instagram from "../assets/instagram.svg"
-import Facebook from "../assets/facebook.svg"
-import Twitter from "../assets/twitter.svg"
-import Arrow from "../assets/arrow-btn.svg"
+} from "theme-ui";
+import { Link } from "gatsby";
+import Logo from "../images/logo";
+import ArrowBtn from "../components/arrowbtn";
+import Instagram from "../assets/instagram.svg";
+import Facebook from "../assets/facebook.svg";
+import Twitter from "../assets/twitter.svg";
+import Arrow from "../assets/arrow-btn.svg";
 
 export default () => {
   return (
@@ -31,6 +31,7 @@ export default () => {
           width: "100%",
           height: "10vw",
           transform: "translateY(-100%)",
+          pointerEvents: "none",
         },
       }}
     >
@@ -249,5 +250,5 @@ export default () => {
         </Text>
       </Container>
     </footer>
-  )
-}
+  );
+};
