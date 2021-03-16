@@ -6,15 +6,16 @@ export default [
     icon: "cart",
     lat: 43.623637870635996,
     lng: -79.50765967494333,
-    link: "https://goo.gl/maps/T9VBbenTuamDemwX8",
+    link: "https://goo.gl/maps/nCu5hme5KCMhea4b6",
   },
   {
     id: 2,
-    name: "Costco - Thorncliffe",
+    name: "Costco - Overlea",
     address: "42 Overlea Blvd, Toronto, ON M4H 1B6",
     icon: "cart",
     lat: 43.70751510672176,
     lng: -79.34835753651751,
+    link: "https://goo.gl/maps/ao7xshyEbh7CzWg29",
   },
   {
     id: 3,
@@ -23,6 +24,7 @@ export default [
     icon: "cart",
     lat: 43.90188580961387,
     lng: -79.39076992890216,
+    link: "https://goo.gl/maps/96b6qBPnj3izrPob9",
   },
   {
     id: 4,
@@ -31,6 +33,7 @@ export default [
     icon: "cart",
     lat: 43.52122591206854,
     lng: -79.68900508843846,
+    link: "https://goo.gl/maps/pJ2iNubW2RN59GCj9",
   },
   {
     id: 5,
@@ -39,6 +42,7 @@ export default [
     icon: "cart",
     lat: 45.43548415837064,
     lng: -75.60343334232795,
+    link: "https://goo.gl/maps/Kc9GSQ6PoQT2YAMw5",
   },
   {
     id: 6,
@@ -47,6 +51,7 @@ export default [
     icon: "cart",
     lat: 45.485920868521106,
     lng: -73.55367388837472,
+    link: "https://goo.gl/maps/uUVNv9K6TGf52XvTA",
   },
   {
     id: 7,
@@ -56,6 +61,7 @@ export default [
     icon: "cart",
     lat: 45.50126167260886,
     lng: -73.3817923018662,
+    link: "https://goo.gl/maps/F5iNXGUUsunydhwt6",
   },
   {
     id: 8,
@@ -64,6 +70,7 @@ export default [
     icon: "cart",
     lat: 45.469552583343834,
     lng: -73.81785018652312,
+    link: "https://goo.gl/maps/p3Tk89k1TRbua1bp7",
   },
   {
     id: 9,
@@ -72,6 +79,7 @@ export default [
     icon: "cart",
     lat: 42.997627538895095,
     lng: -81.21691073078313,
+    link: "https://goo.gl/maps/7D7FH1gRgG4qUgNU9",
   },
   {
     id: 10,
@@ -80,6 +88,7 @@ export default [
     icon: "cart",
     lat: 45.427019391643924,
     lng: -75.6918102730326,
+    link: "https://g.page/LaBottegaNicastro?share",
   },
   {
     id: 11,
@@ -88,6 +97,7 @@ export default [
     icon: "cart",
     lat: 43.88783307937402,
     lng: -78.91118730191874,
+    link: "https://goo.gl/maps/giHCxJ39xFhHXA1s7",
   },
   {
     id: 12,
@@ -96,6 +106,7 @@ export default [
     icon: "cart",
     lat: 43.863709928541724,
     lng: -79.48382848657545,
+    link: "https://g.page/yummy-market-maple?share",
   },
   {
     id: 13,
@@ -104,6 +115,7 @@ export default [
     icon: "cart",
     lat: 45.761165903853694,
     lng: -74.01531544603766,
+    link: "https://goo.gl/maps/uehqcL7gAKtBujZVA",
   },
   {
     id: 14,
@@ -112,6 +124,7 @@ export default [
     icon: "cart",
     lat: 46.38772729130729,
     lng: -72.55295600183666,
+    link: "https://goo.gl/maps/PANgEHnmydVUaG8Y9",
   },
   {
     id: 15,
@@ -120,6 +133,7 @@ export default [
     icon: "cart",
     lat: 43.66979731294023,
     lng: -79.38857065774562,
+    link: "https://goo.gl/maps/Dongp4DrrWrPLktA6",
   },
   {
     id: 16,
@@ -128,6 +142,7 @@ export default [
     icon: "cart",
     lat: 43.54503124145067,
     lng: -80.25259487309373,
+    link: "https://g.page/MarketFreshGuelph?share",
   },
   {
     id: 17,
@@ -136,6 +151,7 @@ export default [
     icon: "cart",
     lat: 45.39117324431678,
     lng: -75.67981407118162,
+    link: "https://goo.gl/maps/fEWUj5mfnrxEDd62A",
   },
   {
     id: 18,
@@ -144,6 +160,7 @@ export default [
     icon: "cart",
     lat: 45.64409759401047,
     lng: -73.8629709865173,
+    link: "https://goo.gl/maps/AuSV9JtV5nbcniCm9",
   },
   {
     id: 19,
@@ -152,6 +169,7 @@ export default [
     icon: "cart",
     lat: 43.459707782054835,
     lng: -80.51940458658835,
+    link: "https://goo.gl/maps/PFTNxZL66t7RK2AWA",
   },
   {
     id: 20,
@@ -160,6 +178,7 @@ export default [
     icon: "cart",
     lat: 43.53076096226686,
     lng: -79.6154758865861,
+    link: "https://goo.gl/maps/A13i2MvBJtCWmWZ17",
   },
   {
     id: 21,
@@ -168,6 +187,7 @@ export default [
     icon: "cart",
     lat: 43.96036143304055,
     lng: -78.16383490191643,
+    link: "https://g.page/marketsmor?share",
   },
   {
     id: 22,
@@ -176,6 +196,7 @@ export default [
     icon: "cart",
     lat: 43.24793683541832,
     lng: -79.81782690193917,
+    link: "https://goo.gl/maps/JVjv3pUCFwyTPzUH7",
   },
   {
     id: 23,
@@ -184,6 +205,7 @@ export default [
     icon: "cart",
     lat: 45.63690052683071,
     lng: -73.79130010186168,
+    link: "https://goo.gl/maps/HGtdV6YWAoZYz9PL7",
   },
   {
     id: 24,
@@ -192,6 +214,7 @@ export default [
     icon: "cart",
     lat: 43.67773574722174,
     lng: -79.3899116442534,
+    link: "https://goo.gl/maps/42KHt4qDJ1mLcnqT7",
   },
   {
     id: 25,
@@ -200,14 +223,16 @@ export default [
     icon: "cart",
     lat: 45.547650654693605,
     lng: -73.59271330186462,
+    link: "https://goo.gl/maps/hXebbcdRnPhpfjnH6",
   },
   {
     id: 26,
     name: "Pleine Lune",
-    address: "495, boul du Séminaire Nord, Saint-Jean-sur-Richelieu, QC	J3B 5L5",
+    address: "495 boul du Séminaire Nord, Saint-Jean-sur-Richelieu, QC	J3B 5L5",
     icon: "cart",
     lat: 45.315245372148816,
     lng: -73.26436841721643,
+    link: "https://goo.gl/maps/ngnjbDwHU4VyXNc68",
   },
   {
     id: 27,
@@ -216,14 +241,16 @@ export default [
     icon: "cart",
     lat: 43.667227326231995,
     lng: -79.83074691726983,
+    link: "https://goo.gl/maps/s5V8tUDeXGqXcZhu9",
   },
   {
     id: 28,
     name: "SmoothiesGo Marche Naturello Foods",
-    address: "905 Hodge Street, Ville Saint Laurent, QC	H4N 2B3",
+    address: "4969 Rue Levy, Saint-Laurent, QC H4R 2N9",
     icon: "cart",
     lat: 45.514863728188125,
     lng: -73.66454040186571,
+    link: "https://g.page/SmoothiesGo?share",
   },
   {
     id: 29,
@@ -232,6 +259,7 @@ export default [
     icon: "cart",
     lat: 44.697235628406894,
     lng: -63.6828775962957,
+    link: "https://g.page/Luminate_Co?share",
   },
   {
     id: 30,
@@ -240,6 +268,7 @@ export default [
     icon: "cart",
     lat: 45.544970598213126,
     lng: -73.61081768836021,
+    link: "https://goo.gl/maps/yd4Y8Aq2uyAafTgY8",
   },
   {
     id: 31,
@@ -248,6 +277,7 @@ export default [
     icon: "cart",
     lat: 43.64799699816403,
     lng: -79.38144798095163,
+    link: "https://goo.gl/maps/kgAeiywHg5nBVtZp9",
   },
   {
     id: 32,
@@ -256,6 +286,7 @@ export default [
     icon: "cart",
     lat: 46.23449354400549,
     lng: -79.37184370282559,
+    link: "https://g.page/vested-interest-trading-on?share",
   },
   {
     id: 33,
@@ -264,6 +295,7 @@ export default [
     icon: "cart",
     lat: 43.16662905917919,
     lng: -79.23954165961376,
+    link: "https://goo.gl/maps/cQNQwCWq4o7S8pcY9",
   },
   {
     id: 34,
@@ -272,6 +304,7 @@ export default [
     icon: "cart",
     lat: 43.166707311841854,
     lng: -79.23954702405986,
+    link: "https://goo.gl/maps/Msa2EsTnMMAqYkCC9",
   },
   {
     id: 35,
@@ -280,6 +313,7 @@ export default [
     icon: "cart",
     lat: 45.547710918454165,
     lng: -73.59307267302859,
+    link: "https://goo.gl/maps/igic1CfzMMXrtwTn8",
   },
   {
     id: 36,
@@ -288,6 +322,7 @@ export default [
     icon: "cart",
     lat: 45.517566436781,
     lng: -73.71515691535758,
+    link: "https://goo.gl/maps/7w6AzDXbBi2FEUXr9",
   },
   {
     id: 37,
@@ -296,6 +331,7 @@ export default [
     icon: "cart",
     lat: 45.52083402543055,
     lng: -73.60776448837353,
+    link: "https://goo.gl/maps/dGwKiFRuDN2DUkSf9",
   },
   {
     id: 38,
@@ -304,6 +340,7 @@ export default [
     icon: "cart",
     lat: 43.38748326485954,
     lng: -79.79428017072362,
+    link: "https://goo.gl/maps/2xUrTCUryyfeCbT3A",
   },
   {
     id: 39,
@@ -312,6 +349,7 @@ export default [
     icon: "cart",
     lat: 43.791312533048114,
     lng: -79.54355241356157,
+    link: "https://goo.gl/maps/Rmtk2LtygVMj6nGw9",
   },
   {
     id: 40,
@@ -320,6 +358,7 @@ export default [
     icon: "cart",
     lat: 45.47986357708775,
     lng: -73.576538717211,
+    link: "https://goo.gl/maps/YjtwdCcqgFvfERMCA",
   },
   {
     id: 41,
@@ -328,6 +367,7 @@ export default [
     icon: "cart",
     lat: 45.47926908345226,
     lng: -73.60276736139109,
+    link: "https://goo.gl/maps/ekzf8MQ2f6VSGNcYA",
   },
   {
     id: 42,
@@ -336,6 +376,7 @@ export default [
     icon: "cart",
     lat: 43.89414805956755,
     lng: -78.92784387308252,
+    link: "https://goo.gl/maps/8YehdR42buD1uBVPA",
   },
   {
     id: 43,
@@ -344,6 +385,7 @@ export default [
     icon: "cart",
     lat: 46.516519354316955,
     lng: -80.94480484416032,
+    link: "https://goo.gl/maps/WaL3AjVDvYmSbonr8",
   },
   {
     id: 44,
@@ -352,6 +394,7 @@ export default [
     icon: "cart",
     lat: 43.36942896238786,
     lng: -80.97863513077134,
+    link: "https://goo.gl/maps/QxB9idk4nB8namgt9",
   },
   {
     id: 45,
@@ -360,6 +403,7 @@ export default [
     icon: "cart",
     lat: 43.803591218124296,
     lng: -79.4165309730854,
+    link: "https://goo.gl/maps/EJYKJLmd8MPGVt4GA",
   },
   {
     id: 46,
@@ -368,6 +412,7 @@ export default [
     icon: "cart",
     lat: 44.03554387107046,
     lng: -79.4722362712258,
+    link: "https://goo.gl/maps/1iGbpDaHxNQwrRwU8",
   },
   {
     id: 47,
@@ -376,6 +421,7 @@ export default [
     icon: "cart",
     lat: 45.5456258225324,
     lng: -73.60405915953677,
+    link: "https://goo.gl/maps/AaS1mu6Cm1x9LWEQ6",
   },
   {
     id: 48,
@@ -384,6 +430,7 @@ export default [
     icon: "cart",
     lat: 45.40352210117587,
     lng: -75.68893393070545,
+    link: "https://goo.gl/maps/NGw6D2cMhaqtv6MA6",
   },
   {
     id: 49,
@@ -392,6 +439,7 @@ export default [
     icon: "cart",
     lat: 46.02106493066009,
     lng: -73.45092331534097,
+    link: "https://goo.gl/maps/nyCLieAEcctnYXDY6",
   },
   {
     id: 50,
@@ -400,6 +448,7 @@ export default [
     icon: "cart",
     lat: 43.852734736385266,
     lng: -79.52107560191983,
+    link: "https://goo.gl/maps/ez1hyD6jbPWHayaX6",
   },
   {
     id: 51,
@@ -408,6 +457,7 @@ export default [
     icon: "cart",
     lat: 45.05473825488752,
     lng: -72.83759564420883,
+    link: "https://goo.gl/maps/rN5j4pN8DWTpRpqR9",
   },
   {
     id: 52,
@@ -416,6 +466,7 @@ export default [
     icon: "cart",
     lat: 45.38580138835037,
     lng: -75.67748843070603,
+    link: "https://g.page/Natural-Food-Pantry---Billings?share",
   },
   {
     id: 53,
@@ -424,6 +475,7 @@ export default [
     icon: "cart",
     lat: 45.52236255408125,
     lng: -73.57829281535737,
+    link: "https://goo.gl/maps/GL8W8NqjtLhLFpt5A",
   },
   {
     id: 54,
@@ -432,6 +484,7 @@ export default [
     icon: "cart",
     lat: 43.80703919045334,
     lng: -79.55073898657724,
+    link: "https://goo.gl/maps/c7uPpnjALnRA3qzS6",
   },
   {
     id: 55,
@@ -440,22 +493,25 @@ export default [
     icon: "cart",
     lat: 43.728858742209646,
     lng: -79.41779201726794,
+    link: "https://goo.gl/maps/Kq4YNPB3WCAX3YLp6",
   },
   {
     id: 56,
     name: "National Food Shop",
-    address: "4903 rue Sherbrooke Ouest, Montréal, QC H3Z 1H2",
+    address: "4903 rue Sherbrooke Ouest, Westmount, QC H3Z 1H2",
     icon: "cart",
     lat: 45.47823652760616,
     lng: -73.60467244234275,
+    link: "https://goo.gl/maps/suSbMY7a4xUMykLX6",
   },
   {
     id: 57,
     name: "Marche Toit Rouge",
-    address: "160, boul Brien, Repentigny, QC	J6A 6V1",
+    address: "160 boul Brien, Repentigny, QC	J6A 6V1",
     icon: "cart",
     lat: 45.74643064025129,
     lng: -73.46133780000594,
+    link: "https://goo.gl/maps/k1sP9VYhreRbxZ9PA",
   },
   {
     id: 58,
@@ -464,6 +520,7 @@ export default [
     icon: "cart",
     lat: 45.550937233993395,
     lng: -73.57369238837254,
+    link: "https://g.page/AlimentationPoivreetSel?share",
   },
   {
     id: 59,
@@ -472,6 +529,7 @@ export default [
     icon: "cart",
     lat: 45.458546539690104,
     lng: -73.31208110001539,
+    link: "https://goo.gl/maps/SyMcnqtWMZHUv89C6",
   },
   {
     id: 60,
@@ -480,6 +538,7 @@ export default [
     icon: "cart",
     lat: 45.11038803071273,
     lng: -72.61583563071507,
+    link: "https://goo.gl/maps/qT4z3LtiS6WXr4s6A",
   },
   {
     id: 61,
@@ -488,6 +547,7 @@ export default [
     icon: "cart",
     lat: 42.90464088295997,
     lng: -78.96110025776994,
+    link: "https://goo.gl/maps/yGfXK5UKt8qKpPeG7",
   },
   {
     id: 62,
@@ -496,6 +556,7 @@ export default [
     icon: "cart",
     lat: 46.454257657166494,
     lng: -81.0027263595065,
+    link: "https://goo.gl/maps/g4SDDhpTFeuigQoZ9",
   },
   {
     id: 63,
@@ -504,6 +565,7 @@ export default [
     icon: "cart",
     lat: 44.561798506398794,
     lng: -80.453041201897,
+    link: "https://goo.gl/maps/L7x7f1mcsYuJQ8Ta9",
   },
   {
     id: 64,
@@ -512,6 +574,7 @@ export default [
     icon: "cart",
     lat: 44.5287190909358,
     lng: -80.33175358655396,
+    link: "https://goo.gl/maps/KRDTyCBRhGjoEVGC6",
   },
   {
     id: 65,
@@ -520,6 +583,7 @@ export default [
     icon: "cart",
     lat: 46.235848068643435,
     lng: -63.12809185951381,
+    link: "https://goo.gl/maps/PthjWESEs6mmsnmx7",
   },
   {
     id: 66,
@@ -528,6 +592,7 @@ export default [
     icon: "cart",
     lat: 45.129253773139276,
     lng: -78.5099275595504,
+    link: "https://goo.gl/maps/pMC5xzxASov9wTuY6",
   },
   {
     id: 67,
@@ -536,6 +601,7 @@ export default [
     icon: "cart",
     lat: 44.75154604148982,
     lng: -79.76537305771065,
+    link: "https://g.page/rootedmidland19?share",
   },
   {
     id: 68,
@@ -544,6 +610,7 @@ export default [
     icon: "cart",
     lat: 45.549082000465305,
     lng: -73.54186358652049,
+    link: "https://goo.gl/maps/i9icgjFcPemKjWj48",
   },
   {
     id: 69,
@@ -552,6 +619,7 @@ export default [
     icon: "cart",
     lat: 44.328609873998964,
     lng: -79.70075533074052,
+    link: "https://goo.gl/maps/E2qKn7oxWF7WyDVT8",
   },
   {
     id: 70,
@@ -560,6 +628,7 @@ export default [
     icon: "cart",
     lat: 45.48678983058775,
     lng: -73.58922624419469,
+    link: "https://g.page/5SaisonsGreene?share",
   },
   {
     id: 71,
@@ -568,6 +637,7 @@ export default [
     icon: "cart",
     lat: 45.392335299660054,
     lng: -75.75335688652565,
+    link: "https://g.page/noorfoodmarket?share",
   },
   {
     id: 72,
@@ -576,6 +646,7 @@ export default [
     icon: "cart",
     lat: 43.6707855678926,
     lng: -79.43451458658159,
+    link: "https://goo.gl/maps/yoHus2bHVQ2Mhhj59",
   },
   {
     id: 73,
@@ -584,6 +655,7 @@ export default [
     icon: "cart",
     lat: 42.29348849311393,
     lng: -82.70727195964126,
+    link: "https://g.page/labellefromage?share",
   },
   {
     id: 74,
@@ -592,6 +664,7 @@ export default [
     icon: "tea",
     lat: 43.667481921125834,
     lng: -79.38576100869956,
+    link: "https://g.page/yifangdowntown?share",
   },
   {
     id: 75,
@@ -600,6 +673,7 @@ export default [
     icon: "tea",
     lat: 43.783910522628176,
     lng: -79.28729105774198,
+    link: "https://goo.gl/maps/H1MbrEuQMB4vVbeBA",
   },
   {
     id: 76,
@@ -608,6 +682,7 @@ export default [
     icon: "tea",
     lat: 43.65435316684976,
     lng: -79.39817151541813,
+    link: "https://g.page/yifangchinatownto?share",
   },
   {
     id: 77,
@@ -616,6 +691,7 @@ export default [
     icon: "tea",
     lat: 43.77655954643818,
     lng: -79.41440367308631,
+    link: "https://g.page/yifangnorthyork?share",
   },
   {
     id: 78,
@@ -624,6 +700,7 @@ export default [
     icon: "tea",
     lat: 43.82226069835956,
     lng: -79.29847930006873,
+    link: "https://goo.gl/maps/mWyiJHRDKQAffSWM6",
   },
   {
     id: 79,
@@ -632,6 +709,7 @@ export default [
     icon: "tea",
     lat: 43.84906104730156,
     lng: -79.34779802890385,
+    link: "https://goo.gl/maps/tHWShU6QxrX3t3zX7",
   },
   {
     id: 80,
@@ -640,6 +718,7 @@ export default [
     icon: "tea",
     lat: 43.80909917105478,
     lng: -79.26912148657718,
+    link: "https://goo.gl/maps/KPLNrS7F7Lskn5eS8",
   },
   {
     id: 81,
@@ -648,6 +727,7 @@ export default [
     icon: "tea",
     lat: 43.46169953804738,
     lng: -80.5377439865883,
+    link: "https://g.page/yifangwaterloo?share",
   },
   {
     id: 82,
@@ -656,6 +736,7 @@ export default [
     icon: "tea",
     lat: 43.25442881542703,
     lng: -79.86551701543088,
+    link: "https://goo.gl/maps/Qb8vaqFj8fgQo9wq8",
   },
   {
     id: 83,
@@ -664,6 +745,7 @@ export default [
     icon: "tea",
     lat: 43.65334233303455,
     lng: -79.35714745959828,
+    link: "https://goo.gl/maps/2cvUaXvVXohf8t459",
   },
   {
     id: 84,
@@ -672,6 +754,7 @@ export default [
     icon: "tea",
     lat: 45.82781479114408,
     lng: -73.42467111654416,
+    link: "https://goo.gl/maps/bg6BWp2TvmEwkCgX6",
   },
   {
     id: 85,
@@ -680,5 +763,43 @@ export default [
     icon: "tea",
     lat: 43.647156595729705,
     lng: -79.40719918884038,
+    link: "https://g.page/barkadatoronto?share",
   },
-]
+  {
+    id: 86,
+    name: "Highland Farms - Vaughan",
+    address: "9940 Dufferin Street, Vaughan, ON L6A 4K5",
+    icon: "cart",
+    lat: 43.873910915296754,
+    lng: -79.48563311479225,
+    link: "https://goo.gl/maps/4tPJReE9HNbnfrB2A",
+  },
+  {
+    id: 87,
+    name: "Highland Farms - Scarborough",
+    address: "850 Ellesmere Road, Scarborough, ON M1P 2W5",
+    icon: "cart",
+    lat: 43.77830322358511,
+    lng: -79.28375934417167,
+    link: "https://goo.gl/maps/gXtVKYpZugYsfWF18",
+  },
+  {
+    id: 88,
+    name: "Highland Farms - Mississauga",
+    address: "50 Matheson Blvd. East, Mississauga, ON L4Z 1N5",
+    icon: "cart",
+    lat: 43.63190360379177,
+    lng: -79.67229697423774,
+    link: "https://goo.gl/maps/aGzeF6wq7PSMUY1d7",
+  },
+  {
+    id: 89,
+    name: "Organice Garage - Liberty Village",
+    address: "42 Hanna Ave, Toronto, ON M6K 1X1",
+    icon: "cart",
+    lat: 43.6394910688268854,
+    lng: -79.41996778454188,
+    link: "https://goo.gl/maps/9yZ8Yav36CBoy3TBA",
+  },
+
+];
