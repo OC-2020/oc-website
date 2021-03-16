@@ -94,7 +94,7 @@ export default forwardRef(
           {store.address}
         </p>
         <a
-          href="https://maps.google.com"
+          href={store.link}
           target="_blank"
           rel="noreferrer noopener"
           sx={{
