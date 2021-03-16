@@ -6,6 +6,7 @@ export default [
     icon: "cart",
     lat: 43.623637870635996,
     lng: -79.50765967494333,
+    link: "https://www.google.com/maps/place/50+Queen+Elizabeth+Blvd,+Etobicoke,+ON+M8Z+1M1/@43.6232651,-79.509784,17z/data=!3m1!4b1!4m5!3m4!1s0x882b3631d08fc717:0x6d4495785573c36f!8m2!3d43.6234511!4d-79.5076464",
   },
   {
     id: 2,
