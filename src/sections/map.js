@@ -1,14 +1,14 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import { useEffect, useRef } from "react"
-import GoogleMapReact from "google-map-react"
-import StoreMarker from "../components/storeMarker"
+import { jsx } from "theme-ui";
+import { useEffect, useRef } from "react";
+import GoogleMapReact from "google-map-react";
+import StoreMarker from "../components/storeMarker";
 
 const mapOptions = {
   fullscreenControl: false,
   zoomControl: false,
   gestureHandling: "cooperative",
-}
+};
 
 export default ({
   stores,
@@ -17,21 +17,25 @@ export default ({
   latlng,
   zoomed,
 }) => {
-  const isMobile = typeof window !== "undefined" && window.innerWidth < 600
-  const mapRef = useRef()
-  const storeRefs = stores.map(() => useRef())
+  const isMobile = typeof window !== "undefined" && window.innerWidth < 600;
+  const mapRef = useRef();
+  const storeRefs = stores.map(() => useRef());
 
   const handleClick = (store, key) => {
-    setSelectedStore(store)
+    setSelectedStore(store);
+    storeRefs.map((ref) => ref.current.classList.remove("show-tooltip"));
+    storeRefs[key].current.classList.toggle("show-tooltip");
+  };
 
-    storeRefs[key].current.classList.toggle("show-tooltip")
-  }
+  const handleCloseClick = () => {
+    storeRefs.map((ref) => ref.current.classList.remove("show-tooltip"));
+  };
 
   useEffect(() => {
-    if (!selectedStore) return
-
-    storeRefs[selectedStore.id - 1].current.classList.add("show-tooltip")
-  }, [storeRefs, selectedStore])
+    if (!selectedStore) return;
+    storeRefs.map((ref) => ref.current.classList.remove("show-tooltip"));
+    storeRefs[selectedStore.id - 1].current.classList.add("show-tooltip");
+  }, [storeRefs, selectedStore]);
 
   return (
     <div
@@ -48,13 +52,11 @@ export default ({
           key: "AIzaSyB9BcZb7i1KQlno4qcjJBXWHZBAllvLKNc",
         }}
         center={latlng}
-        // defaultZoom={isMobile ? 4 : 5.7}
-        // zoom={zoomed ? 15 : 5.7}
         zoom={zoomed ? 15 : isMobile ? 4.5 : 5.7}
         hideSettings={true}
         yesIWantToUseGoogleMapApiInternals
         onGoogleApiLoaded={({ map }) => {
-          mapRef.current = map
+          mapRef.current = map;
         }}
         options={mapOptions}
       >
@@ -66,6 +68,7 @@ export default ({
             lat={store.lat}
             lng={store.lng}
             ref={storeRefs[i]}
+            handleCloseClick={handleCloseClick}
             onClick={() => handleClick(store, i)}
           />
         ))}
@@ -101,5 +104,5 @@ export default ({
         <polygon fill="white" points="100,0 100,100 0,100" />
       </svg>
     </div>
-  )
-}
+  );
+};

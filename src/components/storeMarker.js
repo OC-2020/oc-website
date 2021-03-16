@@ -1,44 +1,40 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import { forwardRef } from "react"
-import Cart from "../assets/cart.svg"
-import Tea from "../assets/tea.svg"
+import { jsx } from "theme-ui";
+import { forwardRef } from "react";
+import Cart from "../assets/cart.svg";
+import Tea from "../assets/tea.svg";
+import Arrow from "../assets/arrow-btn.svg";
 
 export default forwardRef(
-  ({ icon, lat, lng, store, onClick, showTooltip }, ref) => (
-    <button
-      lat={lat}
-      lng={lng}
-      onClick={onClick}
-      onKeyPress={onClick}
-      ref={ref}
-      className={showTooltip ? "show-tooltip" : ""}
-      sx={{
-        position: "relative",
-        background: "none",
-        border: "none",
-        cursor: "pointer",
-        textAlign: "left",
-        svg: {
-          transform: "scale(.75)",
-          transition: "transform .1s ease-in-out",
-        },
-        ":focus": {
-          outline: "none",
-        },
-        ":hover": {
+  ({ icon, lat, lng, store, onClick, handleCloseClick }, ref) => (
+    <div lat={lat} lng={lng} ref={ref} sx={{ position: "relative" }}>
+      <button
+        onClick={onClick}
+        onKeyPress={onClick}
+        sx={{
+          background: "none",
+          border: "none",
+          cursor: "pointer",
+          textAlign: "left",
           svg: {
-            transform: "scale(.9)",
+            transform: "scale(.75)",
+            transition: "transform .1s ease-in-out",
           },
-        },
-      }}
-    >
+          ":focus": {
+            outline: "none",
+          },
+        }}
+      >
+        {icon === "cart" ? <Cart /> : <Tea />}
+      </button>
+
       <div
         sx={{
           display: "none",
           position: "absolute",
+          top: 0,
           left: "32px",
-          transform: "translate(-50%, -115%)",
+          transform: "translate(-50%, -110%)",
           width: "262px",
           padding: "20px",
           backgroundColor: "white",
@@ -69,6 +65,12 @@ export default forwardRef(
             position: "absolute",
             top: "10px",
             right: "10px",
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            "&:focus": {
+              outline: "none",
+            },
           },
         }}
       >
@@ -91,18 +93,38 @@ export default forwardRef(
         >
           {store.address}
         </p>
-        <svg
-          className="close"
-          width="10"
-          height="10"
-          viewBox="0 0 10 10"
-          fill="#44474F"
+        <a
+          href="https://maps.google.com"
+          target="_blank"
+          rel="noreferrer noopener"
+          sx={{
+            position: "relative",
+            display: "inline-block",
+            pt: 2,
+            fontFamily: "barlow",
+            fontWeight: "500",
+            fontSize: "16px",
+            textDecoration: "none",
+          }}
         >
-          <path d="M8.52399 0L9.69971 1.17572L1.17572 9.69971L0 8.52399L8.52399 0Z" />
-          <path d="M9.69971 8.52399L8.52399 9.69971L0 1.17572L1.17572 0L9.69971 8.52399Z" />
-        </svg>
+          Directions
+          <Arrow
+            sx={{
+              position: "absolute",
+              bottom: "1px",
+              left: "95%",
+              ml: 1,
+              transform: "scale(.9) !important",
+            }}
+          />
+        </a>
+        <button className="close" onClick={() => handleCloseClick(store.id)}>
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="#44474F">
+            <path d="M8.52399 0L9.69971 1.17572L1.17572 9.69971L0 8.52399L8.52399 0Z" />
+            <path d="M9.69971 8.52399L8.52399 9.69971L0 1.17572L1.17572 0L9.69971 8.52399Z" />
+          </svg>
+        </button>
       </div>
-      {icon === "cart" ? <Cart /> : <Tea />}
-    </button>
+    </div>
   )
-)
+);
