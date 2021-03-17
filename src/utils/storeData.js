@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    name: "Costco - Etobicoke",
+    name: "Costco - Etobicoke (ON SALE!)",
     address: "50 Queen Elizabeth Blvd, Etobicoke, ON M8Z 1M1",
     icon: "cart",
     lat: 43.623637870635996,
@@ -10,7 +10,7 @@ export default [
   },
   {
     id: 2,
-    name: "Costco - Overlea",
+    name: "Costco - Overlea (ON SALE!)",
     address: "42 Overlea Blvd, Toronto, ON M4H 1B6",
     icon: "cart",
     lat: 43.70751510672176,
@@ -19,7 +19,7 @@ export default [
   },
   {
     id: 3,
-    name: "Costco - Richmond Hill",
+    name: "Costco - Richmond Hill (ON SALE!)",
     address: "35 John Birchall Rd, Toronto, ON L4S 0B2",
     icon: "cart",
     lat: 43.90188580961387,
@@ -28,7 +28,7 @@ export default [
   },
   {
     id: 4,
-    name: "Costco - Mississauga South",
+    name: "Costco - Mississauga South (ON SALE!)",
     address: "3180 Laird Rd, Mississauga, ON L5L 6A5",
     icon: "cart",
     lat: 43.52122591206854,
@@ -37,7 +37,7 @@ export default [
   },
   {
     id: 5,
-    name: "Costco - Ottawa",
+    name: "Costco - Ottawa (ON SALE!)",
     address: "1405 Blair Towers Pl, Ottawa, ON K1J 1A5",
     icon: "cart",
     lat: 45.43548415837064,
@@ -46,7 +46,7 @@ export default [
   },
   {
     id: 6,
-    name: "Costco - Montreal",
+    name: "Costco - Montreal (ON SALE!)",
     address: "300 Rue Bridge Montreal, QC H3K 2C3",
     icon: "cart",
     lat: 45.485920868521106,
@@ -55,7 +55,7 @@ export default [
   },
   {
     id: 7,
-    name: "Costco - Saint-Bruno",
+    name: "Costco - Saint-Bruno (ON SALE!)",
     address:
       "1000 Boulevard Saint-Bruno, Saint-Bruno-de-Montarville, QC J3V 6J6",
     icon: "cart",
@@ -65,7 +65,7 @@ export default [
   },
   {
     id: 8,
-    name: "Costco - Pointe Claire",
+    name: "Costco - Pointe Claire (ON SALE!)",
     address: "5701 Transcanada Nord, Pointe Claire, QC H9R 1B7",
     icon: "cart",
     lat: 45.469552583343834,
