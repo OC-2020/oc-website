@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    name: "Costco - Etobicoke </br> (ON SALE!)",
+    name: "Costco - Etobicoke <br/> (ON SALE!)",
     address: "50 Queen Elizabeth Blvd, Etobicoke, ON M8Z 1M1",
     icon: "cart",
     lat: 43.623637870635996,
@@ -10,7 +10,7 @@ export default [
   },
   {
     id: 2,
-    name: "Costco - Overlea </br> (ON SALE!)",
+    name: "Costco - Overlea <br/> (ON SALE!)",
     address: "42 Overlea Blvd, Toronto, ON M4H 1B6",
     icon: "cart",
     lat: 43.70751510672176,
@@ -37,7 +37,7 @@ export default [
   },
   {
     id: 5,
-    name: "Costco - Ottawa </br> (ON SALE!)",
+    name: "Costco - Ottawa <br/> (ON SALE!)",
     address: "1405 Blair Towers Pl, Ottawa, ON K1J 1A5",
     icon: "cart",
     lat: 45.43548415837064,
@@ -46,7 +46,7 @@ export default [
   },
   {
     id: 6,
-    name: "Costco - Montreal </br> (ON SALE!)",
+    name: "Costco - Montreal <br/> (ON SALE!)",
     address: "300 Rue Bridge Montreal, QC H3K 2C3",
     icon: "cart",
     lat: 45.485920868521106,
