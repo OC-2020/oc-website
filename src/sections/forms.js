@@ -26,7 +26,7 @@ export default () => {
     >
       <div sx={{ width: "460px" }}>
         <Styled.h3 sx={{ mb: 2 }}>I'm A Customer</Styled.h3>
-        <Styled.h2>Please Add My Favorite Store</Styled.h2>
+        <Styled.h2>Please Add My Favourite Store</Styled.h2>
 
         <Flex
           as="form"
