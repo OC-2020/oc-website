@@ -55,7 +55,7 @@ export default ({ setSelectedStore }) => {
                 fontFamily: "barlow",
               }}
             >
-              Can't find your fav store?
+              Don't see your store?
             </h2>
             <p
               sx={{
