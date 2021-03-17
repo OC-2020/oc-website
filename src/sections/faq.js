@@ -34,7 +34,7 @@ export default () => {
 	const questionsRight = [
 		{
 			question: 'What does this oat milk taste like?',
-			answer: 'Our Oat Canada 0g Sugar Oat Milk has a smooth and neutral taste. Because it is completely sugar free, it makes for the perfect base for your coffee, tea, cereal, smoothies, and even your baking and cooking recipes.'
+			answer: 'Our Oat Canada 0g Sugar Oat Milk has a smooth, neutral, and fresh taste. Because it is completely sugar free, it makes for the perfect base for your coffee, tea, cereal, smoothies, and even your baking and cooking recipes.'
 		},
 		{
 			question: 'Is this oat milk for me?',
@@ -46,7 +46,7 @@ export default () => {
 		},
 		{
 			question: 'Where can I find your oat milk in Canada?',
-			answer: "Besides Costco and Well.ca, you can also find our product at Local Independents in Eastern Canada below. We're quickly expanding, so if there is a specific retailer/independent you'd like to find our product in, be sure to let us know in the contact form below!<br /><br />Nature's Emporium<br />Amici Foods<br />Battaglias<br />Coco Market<br />Dworkins<br />Eagle Lake Country Market<br />FH Fine Foods<br />La Bottega<br />La Moisson<br />O & V Tasting Room Elmira<br />On the Move Organics<br />Simply Zen<br />Vincenzo’s<br />Pleine Lune<br />Vested Interest<br />Market Fresh"
+			answer: "Besides Costco and Well.ca, you can also find our product at local grocery stores and restaurants in Eastern Canada. Check out our <a href='https://oatcanada.com/stores/' target='_blank' rel='noopener noreferrer'>Store Locator Page</a>. We're quickly expanding, so if there is a specific retailer you'd like to find our product in, be sure to let us know!"
 		}
 	]
 
