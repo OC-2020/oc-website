@@ -67,7 +67,7 @@ export default () => {
           In grocery stores
           <CartOutline />
           <br />
-          & Restaurants
+          In Restaurants
           <TeaOutline />
         </Styled.h3>
       </Container>
