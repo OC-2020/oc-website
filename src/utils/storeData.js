@@ -27,6 +27,15 @@ export default [
     link: "https://goo.gl/maps/96b6qBPnj3izrPob9",
   },
   {
+    id: 4,
+    name: "Costco - Mississauga South (ON SALE!)",
+    address: "3180 Laird Rd, Mississauga, ON L5L 6A5",
+    icon: "cart",
+    lat: 43.52122591206854,
+    lng: -79.68900508843846,
+    link: "https://goo.gl/maps/VEVozcuC3fxnCHgk9",
+  },
+  {
     id: 5,
     name: "Costco - Ottawa (ON SALE!)",
     address: "1405 Blair Towers Pl, Ottawa, ON K1J 1A5",
