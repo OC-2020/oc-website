@@ -17,7 +17,7 @@ export default () => (
 				target="_blank"
 				rel="noopnener noreferrer"
 			>
-				Welcome to the Family <Arrow sx={{ marginLeft: 1 }} />
+				Follow Us On Instagram <Arrow sx={{ marginLeft: 1 }} />
 			</Button>
 		</Box>
 	</section>
