@@ -189,7 +189,7 @@ export default ({ setSelectedStore, maps, onPlacesChanged }) => {
       >
         <input
           ref={input}
-          type="text"
+          type="search"
           onChange={handleChange}
           placeholder="Search by City"
           sx={{
