@@ -166,6 +166,10 @@ export default ({ setSelectedStore, maps, onPlacesChanged }) => {
       };
   }, [maps, handleOnPlacesChanged]);
 
+  const handleSubmit = e => {
+    e.preventDefault()
+  }
+
   return (
     <Flex
       sx={{
@@ -178,7 +182,9 @@ export default ({ setSelectedStore, maps, onPlacesChanged }) => {
         mr: [0, 0, "4vw"],
       }}
     >
-      <div
+      <form
+        action="#"
+        onSubmit={handleSubmit}
         sx={{
           py: 2,
           width: "100%",
@@ -203,7 +209,7 @@ export default ({ setSelectedStore, maps, onPlacesChanged }) => {
             },
           }}
         />
-      </div>
+      </form>
 
       <Suggestions />
 
