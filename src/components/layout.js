@@ -42,6 +42,10 @@ export default ({ children, hasHero }) => {
             margin: 0,
             overflowX: "hidden",
           },
+          ".pac-container": {
+            visibility: 'hidden',
+            pointerEvents: 'none'
+          },
           a: {
             color: "#0000ff",
           },

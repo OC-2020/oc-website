@@ -1,13 +1,13 @@
 /** @jsx jsx */
 import { jsx, Flex } from "theme-ui"
-import { useState } from "react"
+import { useState, useRef, useEffect, useCallback } from "react"
 import storeData from "../utils/storeData"
 import Cart from "../assets/cart.svg"
 import Tea from "../assets/tea.svg"
 import SearchIcon from "../assets/searchIcon.svg"
 import NotFound from "../assets/notFound.svg"
 
-export default ({ setSelectedStore }) => {
+export default ({ setSelectedStore, maps, onPlacesChanged }) => {
   const [suggestions, setSuggestions] = useState(storeData)
   const [searchText, setSearchText] = useState("")
 
@@ -143,6 +143,33 @@ export default ({ setSelectedStore }) => {
     setSuggestions(text.length < 1 ? storeData : filteredStores)
   }
 
+  const input = useRef(null);
+  const searchBox = useRef(null);
+
+  const handleOnPlacesChanged = useCallback(() => {
+      if (onPlacesChanged) {
+          onPlacesChanged(searchBox.current.getPlaces());
+      }
+  }, [onPlacesChanged, searchBox]);
+
+  useEffect(() => {
+      if (!searchBox.current && maps) {
+          searchBox.current = new maps.places.SearchBox(input.current);
+          searchBox.current.addListener('places_changed', handleOnPlacesChanged);
+      }
+
+      return () => {
+          if (maps) {
+              searchBox.current = null;
+              maps.event.clearInstanceListeners(searchBox);
+          }
+      };
+  }, [maps, handleOnPlacesChanged]);
+
+  const handleSubmit = e => {
+    e.preventDefault()
+  }
+
   return (
     <Flex
       sx={{
@@ -155,7 +182,9 @@ export default ({ setSelectedStore }) => {
         mr: [0, 0, "4vw"],
       }}
     >
-      <div
+      <form
+        action="#"
+        onSubmit={handleSubmit}
         sx={{
           py: 2,
           width: "100%",
@@ -165,7 +194,8 @@ export default ({ setSelectedStore }) => {
         }}
       >
         <input
-          type="text"
+          ref={input}
+          type="search"
           onChange={handleChange}
           placeholder="Search by City"
           sx={{
@@ -179,7 +209,7 @@ export default ({ setSelectedStore }) => {
             },
           }}
         />
-      </div>
+      </form>
 
       <Suggestions />
 

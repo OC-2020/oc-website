@@ -14,11 +14,12 @@ export default ({
   stores,
   setSelectedStore,
   selectedStore,
+  selectedPlace,
+  setMapApi,
   latlng,
   zoomed,
 }) => {
   const isMobile = typeof window !== "undefined" && window.innerWidth < 600;
-  const mapRef = useRef();
   const storeRefs = stores.map(() => useRef());
 
   const handleClick = (store, key) => {
@@ -50,13 +51,14 @@ export default ({
       <GoogleMapReact
         bootstrapURLKeys={{
           key: "AIzaSyB9BcZb7i1KQlno4qcjJBXWHZBAllvLKNc",
+          libraries: 'places'
         }}
         center={latlng}
-        zoom={zoomed ? 15 : isMobile ? 4.5 : 5.7}
+        zoom={zoomed ? zoomed : isMobile ? 4.5 : 5.7}
         hideSettings={true}
         yesIWantToUseGoogleMapApiInternals
-        onGoogleApiLoaded={({ map }) => {
-          mapRef.current = map;
+        onGoogleApiLoaded={({ maps }) => {
+          setMapApi(maps);
         }}
         options={mapOptions}
       >

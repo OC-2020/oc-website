@@ -24,6 +24,8 @@ export default () => {
   )
   const [zoomed, setZoomed] = useState(false)
   const [selectedStore, setSelectedStore] = useState(null)
+  const [selectedPlace, setSelectedPlace] = useState(null)
+  const [mapApi, setMapApi] = useState(null);
 
   useEffect(() => {
     if (!selectedStore) {
@@ -38,8 +40,24 @@ export default () => {
     }
 
     setLatlng(coords)
-    setZoomed(true)
+    setZoomed(15)
   }, [selectedStore])
+
+  useEffect(() => {
+    if (!selectedPlace) {
+      return
+    }
+
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 600
+
+    const coords = {
+      lat: selectedPlace[0].geometry.location.lat(),
+      lng: isMobile ? selectedPlace[0].geometry.location.lng() + 0.0009 : selectedPlace[0].geometry.location.lng() + 0.075,
+    }
+
+    setLatlng(coords)
+    setZoomed(12)
+  }, [selectedPlace])
 
   return (
     <Layout>
@@ -91,15 +109,18 @@ export default () => {
             px: [4, 4, 0],
           }}
         >
-          <StoreTypeahead setSelectedStore={setSelectedStore} />
+          <StoreTypeahead setSelectedStore={setSelectedStore} maps={mapApi} onPlacesChanged={setSelectedPlace} />
         </Flex>
 
         <Map
           stores={storeData}
           selectedStore={selectedStore}
           setSelectedStore={setSelectedStore}
+          selectedPlace={selectedPlace}
+          setSelectedPlace={setSelectedPlace}
           latlng={latlng}
           zoomed={zoomed}
+          setMapApi={setMapApi}
         />
       </section>
 
