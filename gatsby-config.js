@@ -63,14 +63,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-hotjar`,
-      options: {
-        includeInDevelopment: true, // optional parameter to include script in development
-        id: 2305137,
-        sv: 6,
-      },
-    },
-    {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: 1600422950346141,
