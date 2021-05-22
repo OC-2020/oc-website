@@ -63,6 +63,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-fullstory`,
+      options: {
+        fs_org: "12XQAW",
+      },
+    },
+    {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
         pixelId: 1600422950346141,
