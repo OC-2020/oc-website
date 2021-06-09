@@ -938,12 +938,12 @@ export default [
   },
   {
     id: 105,
-    name: "Loblaws",
-    address: "",
+    name: "Maxi",
+    address: "180 Boul. Barrette Chicoutimi, QC G7H 7W8",
     icon: "cart",
-    lat: ,
-    lng: ,
-    link: "",
+    lat: 48.39827981762192,
+    lng: -71.08085173099964,
+    link: "https://goo.gl/maps/D2yaJGV49hPnarrP8",
   },
   {
     id: 106,
