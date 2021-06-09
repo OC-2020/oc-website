@@ -1061,7 +1061,7 @@ export default [
     lat: 44.26092548930507,
     lng: -76.57406737533785,
     link: "https://goo.gl/maps/hQMmy8Feze8SNZKt7",
-  }
+  },
   {
     id: 119,
     name: "Loblaws",
