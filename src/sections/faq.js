@@ -40,7 +40,7 @@ export default () => {
 		{
 			question: 'Is it Barista Grade? Does it froth?',
 			answer: "Yes, it is Barista Grade! And it most definitely froths! You can check out Arlene Dickinson froth it on <a href='https://www.cbc.ca/dragonsden/m_pitches/oat-canada' target='_blank' rel='noopener noreferrer'>CBC's Dragons' Den.</a>"
-		}
+		},
 		{
 			question: 'What does this oat milk taste like?',
 			answer: 'Our Oat Canada 0g Sugar Oat Milk has a smooth, neutral, and fresh taste. Because it is completely sugar free, it makes for the perfect base for your coffee, tea, cereal, smoothies, and even your baking and cooking recipes.'
