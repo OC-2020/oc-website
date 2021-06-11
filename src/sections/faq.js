@@ -15,7 +15,7 @@ export default () => {
 	const questionsLeft = [
 		{
 			question: 'Where can I find your oat milk in Canada?',
-			answer: "Oat Canada is officially available <b>CANADA WIDE</b>! We're available at <b>Loblaws</b> banners including <b>Superstore</b>, <b>Valu-Mart</b>, <b>Zhers</b>, <b>Provigo</b>, <b>Dominion</b>, <b>Your Independent Grocer</b>, and more. Check out our <a href='https://oatcanada.com/stores/' target='_blank' rel='noopener noreferrer'>Store Locator Page</a>. We're quickly expanding, so if there is a specific retailer you'd like to find our product in, be sure to let us know!"
+			answer: "Oat Canada is officially available <b>CANADA WIDE</b>! We're available at <b>Loblaws</b> banners including <b>Superstore</b>, <b>Valu-Mart</b>, <b>Zehrs</b>, <b>Provigo</b>, <b>Dominion</b>, <b>Your Independent Grocer, and more</b>. Check out our <a href='https://oatcanada.com/stores/' target='_blank' rel='noopener noreferrer'>Store Locator Page</a>. We're quickly expanding, so if there is a specific retailer you'd like to find our product in, be sure to let us know!"
 		},
 		{
 			question: 'Which Costco locations can I find your oat milk in?',
