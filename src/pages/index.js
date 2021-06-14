@@ -13,7 +13,7 @@ import Contact from '../sections/contact'
 import Vegan from '../sections/vegan'
 
 export default () => (
-  <Layout>
+  <Layout home>
     <SEO />
     <Hero />
     <Slanted />

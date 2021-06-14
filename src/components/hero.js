@@ -93,7 +93,7 @@ export default () => {
             }
           }
         }}>
-          Zero Sugar &<br /> Keto Friendly<br /> <span>Oat Milk</span>
+          Zero Sugar &<br /> Keto Friendly<br /> <span>Oat M*lk</span>
         </Styled.h1>
 
         <ShopBtn sx={{

@@ -5,12 +5,13 @@ import { Global } from "@emotion/react"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import NowAt from "../components/nowAt"
 import "../fonts/averta.css"
 import "../fonts/barlow.css"
 import "../fonts/eastman.css"
 import "normalize.css"
 
-export default ({ children, hasHero }) => {
+export default ({ children, home }) => {
   const {
     site: {
       siteMetadata: { title },
@@ -54,6 +55,11 @@ export default ({ children, hasHero }) => {
           },
         })}
       />
+
+      {home &&
+        <NowAt />
+      }
+
       <Header siteTitle={title} />
 
       <main role="main">{children}</main>
