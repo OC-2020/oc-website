@@ -62,7 +62,7 @@ export default () => {
             animationName: slide,
             animationTimingFunction: 'ease-in-out',
             animationDuration: '30s',
-            animationDelay: '1s',
+            animationDelay: '2s',
             animationIterationCount: 'infinite',
             animationDirection: 'alternate',
           }}>
