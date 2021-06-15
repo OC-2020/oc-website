@@ -207,6 +207,14 @@ export default {
       fontWeight: 600,
       textTransform: "uppercase",
     },
+    h4: {
+      m: "0px",
+      fontFamily: "barlow",
+      fontSize: "18px",
+      fontWeight: 600,
+      textTransform: "uppercase",
+      color: "white"
+    },
     p: {
       fontSize: [1, 2],
       letterSpacing: "-0.003em",
