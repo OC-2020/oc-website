@@ -117,7 +117,8 @@ export default () => {
   return (
     <Link to="/stores" sx={{
       display: 'block',
-      background: '#241f21'
+      background: '#241f21',
+      textDecoration: 'none'
     }}>
       <Container sx={{
         display: 'flex',
@@ -156,16 +157,19 @@ export default () => {
           }}>
             <Img
               fixed={costco.childImageSharp.fixed}
+              loading="eager"
               imgStyle={{ objectFit: 'fill' }}
               sx={{ width: '100%' }}
             />
             <Img
               fixed={loblaws.childImageSharp.fixed}
+              loading="eager"
               imgStyle={{ objectFit: 'fill' }}
               sx={{ width: '100%' }}
             />
             <Img
               fixed={superstore.childImageSharp.fixed}
+              loading="eager"
               imgStyle={{ objectFit: 'fill' }}
               sx={{ width: '100%' }}
             />
