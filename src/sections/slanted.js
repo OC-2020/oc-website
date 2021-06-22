@@ -1,19 +1,20 @@
 /** @jsx jsx */
-import { jsx, Container, Box, Text } from 'theme-ui'
-import { useStaticQuery, graphql } from 'gatsby'
+import { jsx, Styled, Container, Flex, Box, Button } from 'theme-ui'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
-import { Fade } from 'react-awesome-reveal'
+import { Fade, Rotate } from 'react-awesome-reveal'
+import Arrow from '../assets/arrow-btn.svg'
 
 export default () => {
   const {
-		carton
+		loblaws
   } = useStaticQuery(
     graphql`
       query {
-        carton: file(relativePath: { eq: "carton2.png" }) {
+        loblaws: file(relativePath: { eq: "loblaws.png" }) {
           childImageSharp {
-            fluid(maxWidth: 708, quality: 95) {
-              ...GatsbyImageSharpFluid_withWebp_noBase64
+            fixed(width: 719, quality: 100) {
+              ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
@@ -24,12 +25,10 @@ export default () => {
   return (
 			<section sx={{
 				position: 'relative',
-				mt: ['26rem', '26rem', '20rem'],
+				mt: ['17rem', '17rem', '12rem'],
 				pt: [5, 5, 0],
-				height: ['360px', '360px', '400px'],
-				backgroundColor: '#44474f',
-				borderTop: '1px solid #44474f',
-				borderBottom: '1px solid #44474f',
+				height: '360px',
+				backgroundColor: '#f9f9f9',
 				'.slanted-top': {
 					position: 'absolute',
 					top: 0,
@@ -47,130 +46,88 @@ export default () => {
 			}}>
 
 			<svg className="slanted-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-				<polygon fill="#44474f" points="0,100 100,50 100,100"/>
+				<polygon fill="#f9f9f9" points="0,100 100,50 100,100"/>
 			</svg>
 
 			<svg className="slanted-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-				<polygon fill="#44474f" points="0,100 100,50 100,100"/>
+				<polygon fill="#f9f9f9" points="0,100 100,50 100,100"/>
 			</svg>
 
 			<Fade delay={500} triggerOnce={true}>
-				<Container sx={{ position: 'relative' }}>
-					<Img
-						fluid={carton.childImageSharp.fluid}
-						style={{
-							position: 'absolute'
-						}}
-						sx={{
-							display: ['none', 'none', 'block'],
-							top: '-9.35rem',
-							left: '15rem',
-							width: ['240px', '240px', '354px'],
-						}}
-					/>
+				<Container sx={{
+					position: 'relative',
+				 }}>
+					 <Flex sx={{
+						 flexDirection: ['column', 'column', 'row'],
+						 alignItems: 'center',
+						 height: '320px'
+					 }}>
+						 <Box sx={{ flex: 1, position: 'relative' }}>
+								<Img
+									fixed={loblaws.childImageSharp.fixed}
+									imgStyle={{ position: 'absolute' }}
+									sx={{
+										top: ['-28.5rem', '-28.5rem', '2.75rem'],
+										left: ['2.75rem', '2.75rem', '-8rem'],
+										width: ['240px', '240px', '719px'],
+										transform: ['rotate(12deg) scale(.55)', 'rotate(12deg) scale(.55)', 'none']
+									}}
+								/>
+						 </Box>
 
-					<Box sx={{
-						position: 'absolute',
-						left: '50%',
-						width: ['240px', '240px', 'auto'],
-						transform: ['translateX(-50%)', 'translateX(-50%)', 'translateX(10%)'],
-						fontSize:  ['24px', '24px', '32px'],
-						fontFamily: 'barlow',
-						color: 'white',
-						'b': {
-							fontWeight: 600
-						}
-					}}>
-						<Text sx={{
-							lineHeight: ['31px', '31px', '42px'],
-							fontWeight: 600,
-							textTransform: 'uppercase',
-						}}>
-							<i>“No added sugar”<br />“Unsweetened”</i>
-						</Text>
-
-						<Text sx={{
-							display: 'inline-block',
-							position: 'relative',
-							mt: 1,
-							pb: ['2px', '2px', '6px'],
-							lineHeight: '30px',
-							backgroundColor: '#d91a4e',
-							':before': {
-								content: '""',
-								position: 'absolute',
-								top: '0px',
-								left: '-8px',
-								width: '60px',
-								height: '100%',
-								backgroundColor: '#d91a4e',
-								transform: 'skew(-10deg)',
-								zIndex: -1
-							},
-							':after': {
-								content: '""',
-								position: 'absolute',
-								top: '0px',
-								right: '-10px',
-								width: '60px',
-								height: '100%',
-								backgroundColor: '#d91a4e',
-								transform: 'skew(-10deg)',
-								zIndex: -1
-							}
-						}}>
-							Do these labels <i><b>really</b></i> mean
-						</Text>
-
-						<br />
-
-						<Text sx={{
-							display: 'inline-block',
-							position: 'relative',
-							mt: 1,
-							pb: ['2px', '2px', '6px'],
-							lineHeight: '30px',
-							backgroundColor: '#d91a4e',
-							':before': {
-								content: '""',
-								position: 'absolute',
-								top: '0px',
-								left: '-8px',
-								width: '60px',
-								height: '100%',
-								backgroundColor: '#d91a4e',
-								transform: 'skew(-10deg)',
-								zIndex: -1
-							},
-							':after': {
-								content: '""',
-								position: 'absolute',
-								top: '0px',
-								right: '-10px',
-								width: '60px',
-								height: '100%',
-								backgroundColor: '#d91a4e',
-								transform: 'skew(-10deg)',
-								zIndex: -1
-							}
-						}}>
-							<i><b>no sugar?</b></i>
-						</Text>
-
-						<Text sx={{
-							mt: 4,
-							mb: 0,
-							lineHeight: ['28px', '28px', '38px'],
-						}}>
-							To avoid confusion, <br />
-							we decided <br />
-							not to sugar coat it. <br />
-							That’s why we went with <br />
-							0g of sugar instead.
-
-							<svg sx={{ display: 'block', mt: '5px', ml: '-6px' }} width="136" height="11"><path d="M55.018 1.626c-8.48.147-16.96.472-25.441.365-8.184-.103-16.372-.745-24.558-.914-1.09-.022-2.339.986-3.224 2.148C.565 4.84.428 8.266 1.331 10.382c.225.529.95.65 1.437.633C16.54 10.53 30.306 9.789 44.08 9.528c29.227-.552 58.359-3.74 87.588-4.148.833-.011 1.773.374 2.47-.145.839-.623.566-2.925 1.242-4.062.122-.205-1.321-1.865-3.818-.882-25.163.44-50.853.89-76.544 1.335z" fill="#D9194F" fillRule="evenodd"/></svg>
-						</Text>
-					</Box>
+							<Box sx={{
+								flex: 1,
+								width: '100%',
+								mt: ['-40rem', '-40rem', 0],
+								pl: [0, 0, 6]
+							}}>
+								<Styled.h3 sx={{ mb: ['4px', '4px', '10px'] }}>By Popular Demand</Styled.h3>
+								<Styled.h2 sx={{
+									'br': {
+										display: ['block', 'block', 'none']
+									},
+									'span': {
+										position: 'relative',
+										display: 'inline-flex',
+										pt: ['8px', '8px', '4px'],
+										pb: ['6px', '6px', 0],
+										mb: [0, 0, '8px'],
+										lineHeight: ['22px', '22px', '52px'],
+										color: 'white',
+										backgroundColor: 'secondary',
+										':before': {
+											content: '""',
+											position: 'absolute',
+											top: '0px',
+											left: '-12px',
+											width: '60px',
+											height: '100%',
+											backgroundColor: 'secondary',
+											transform: 'skew(-10deg)',
+											zIndex: -1
+										},
+										':after': {
+											content: '""',
+											position: 'absolute',
+											top: '0px',
+											right: '-14px',
+											width: '60px',
+											height: '100%',
+											backgroundColor: 'secondary',
+											transform: 'skew(-10deg)',
+											zIndex: -1
+										}
+									}
+								}}>
+									Now At <br /><span>Loblaws</span> <br />Canada Wide
+								</Styled.h2>
+								<Link to="/stores">
+									<Button sx={{ mt: 6 }}>
+										Find In Stores <Arrow sx={{ marginLeft: 4 }} />
+									</Button>
+								</Link>
+							</Box>
+					 </Flex>
 				</Container>
 			</Fade>
 		</section>

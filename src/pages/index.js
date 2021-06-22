@@ -3,6 +3,7 @@ import { jsx } from "theme-ui"
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Hero from '../components/hero'
+import Logos from '../sections/logos'
 import Testimonials from '../components/testimonials'
 import FAQ from '../sections/faq'
 import Slanted from '../sections/slanted'
@@ -16,6 +17,7 @@ export default () => (
   <Layout home>
     <SEO />
     <Hero />
+    <Logos />
     <Slanted />
     <Vegan />
     <Testimonials />
