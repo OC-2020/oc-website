@@ -68,7 +68,7 @@ export default () => {
             pt: ['4px', '4px', 1],
             lineHeight: ['32px', '32px', '94px'],
             color: 'white',
-            backgroundColor: '#d91a4e',
+            backgroundColor: 'secondary',
             ':before': {
               content: '""',
               position: 'absolute',
@@ -76,7 +76,7 @@ export default () => {
               left: '-12px',
               width: '60px',
               height: '100%',
-              backgroundColor: '#d91a4e',
+              backgroundColor: 'secondary',
               transform: 'skew(-10deg)',
               zIndex: -1
             },
@@ -87,7 +87,7 @@ export default () => {
               right: '-20px',
               width: '60px',
               height: '100%',
-              backgroundColor: '#d91a4e',
+              backgroundColor: 'secondary',
               transform: 'skew(-10deg)',
               zIndex: -1
             }

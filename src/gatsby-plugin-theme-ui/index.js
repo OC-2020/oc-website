@@ -55,9 +55,9 @@ export default {
   },
   colors: {
     primary: "#0000ff",
-    secondary: "#ed126a",
+    secondary: "#d9194f",
     background: "#fff",
-    text: "#44474f",
+    text: "#231F20",
   },
   buttons: {
     primary: {
