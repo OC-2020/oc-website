@@ -61,7 +61,7 @@ export default () => {
 				<polygon fill="#f9f9f9" points="0,100 100,50 100,100"/>
 			</svg>
 
-			<Fade delay={500} triggerOnce={true}>
+			<Fade triggerOnce={true}>
 				<Container sx={{ position: 'relative' }}>
 					 <Flex sx={{
 						 flexDirection: ['column', 'column', 'row'],
