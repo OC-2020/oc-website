@@ -19,7 +19,7 @@ export default () => {
             }
           }
         }
-        loblaws_mobile: file(relativePath: { eq: "loblaws_mobile.png" }) {
+        loblaws_mobile: file(relativePath: { eq: "loblaws.png" }) {
           childImageSharp {
             fixed(width: 375, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
