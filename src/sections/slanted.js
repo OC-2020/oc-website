@@ -2,7 +2,6 @@
 import { jsx, Styled, Container, Flex, Box, Button } from 'theme-ui'
 import { useStaticQuery, graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
-import { Fade } from 'react-awesome-reveal'
 import Arrow from '../assets/arrow-btn.svg'
 
 export default () => {
@@ -85,7 +84,8 @@ export default () => {
 						 <Box sx={{
 							 flex: 1,
 							 position: 'relative',
-							 display: ['block', 'block', 'none']
+							 display: ['block', 'block', 'none'],
+							 pointerEvents: 'none'
 						}}>
 							<Img
 								fixed={loblaws_mobile.childImageSharp.fixed}
