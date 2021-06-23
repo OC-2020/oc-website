@@ -52,11 +52,11 @@ export default () => {
 				}
 			}}>
 
-			<svg className="slanted-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+			<svg className="slanted-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" sx={{ zIndex: -1 }}>
 				<polygon fill="#f9f9f9" points="0,100 100,50 100,100"/>
 			</svg>
 
-			<svg className="slanted-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+			<svg className="slanted-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" sx={{ zIndex: -1 }}>
 				<polygon fill="#f9f9f9" points="0,100 100,50 100,100"/>
 			</svg>
 
