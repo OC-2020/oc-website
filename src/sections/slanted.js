@@ -12,14 +12,14 @@ export default () => {
   } = useStaticQuery(
     graphql`
       query {
-        loblaws: file(relativePath: { eq: "loblaws.png" }) {
+        loblaws: file(relativePath: { eq: "loblaws2.png" }) {
           childImageSharp {
             fixed(width: 719, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
-        loblaws_mobile: file(relativePath: { eq: "loblaws.png" }) {
+        loblaws_mobile: file(relativePath: { eq: "loblaws2.png" }) {
           childImageSharp {
             fixed(width: 375, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
