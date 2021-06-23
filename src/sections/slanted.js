@@ -102,7 +102,7 @@ export default () => {
 								width: '100%',
 								mt: ['-20rem', '-20rem', 0],
 								pl: [0, 0, 6],
-								textAlign: 'center'
+								textAlign: ['center', 'center', 'left']
 							}}>
 								<Styled.h3 sx={{ mb: ['4px', '4px', '10px'] }}>By Popular Demand</Styled.h3>
 								<Styled.h2 sx={{
