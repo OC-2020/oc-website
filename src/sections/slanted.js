@@ -61,7 +61,6 @@ export default () => {
 				<polygon fill="#f9f9f9" points="0,100 100,50 100,100"/>
 			</svg>
 
-			<Fade triggerOnce={true}>
 				<Container sx={{ position: 'relative' }}>
 					 <Flex sx={{
 						 flexDirection: ['column', 'column', 'row'],
@@ -118,6 +117,7 @@ export default () => {
 										lineHeight: ['24px', '24px', '52px'],
 										color: 'white',
 										backgroundColor: 'secondary',
+										zIndex: 2,
 										':before': {
 											content: '""',
 											position: 'absolute',
@@ -152,7 +152,6 @@ export default () => {
 							</Box>
 					 </Flex>
 				</Container>
-			</Fade>
 		</section>
 	)
 }
