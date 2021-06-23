@@ -57,7 +57,7 @@ export default () => {
             }
           }
         }}>
-          World’s <span>Only</span>
+          World’s <span>First</span>
         </Styled.h3>
 
         <Styled.h1 sx={{
