@@ -2,18 +2,26 @@
 import { jsx, Styled, Container, Flex, Box, Button } from 'theme-ui'
 import { useStaticQuery, graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
-import { Fade, Rotate } from 'react-awesome-reveal'
+import { Fade } from 'react-awesome-reveal'
 import Arrow from '../assets/arrow-btn.svg'
 
 export default () => {
   const {
-		loblaws
+		loblaws,
+		loblaws_mobile
   } = useStaticQuery(
     graphql`
       query {
         loblaws: file(relativePath: { eq: "loblaws.png" }) {
           childImageSharp {
             fixed(width: 719, quality: 100) {
+              ...GatsbyImageSharpFixed_withWebp_noBase64
+            }
+          }
+        }
+        loblaws_mobile: file(relativePath: { eq: "loblaws_mobile.png" }) {
+          childImageSharp {
+            fixed(width: 375, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
@@ -54,32 +62,47 @@ export default () => {
 			</svg>
 
 			<Fade delay={500} triggerOnce={true}>
-				<Container sx={{
-					position: 'relative',
-				 }}>
+				<Container sx={{ position: 'relative' }}>
 					 <Flex sx={{
 						 flexDirection: ['column', 'column', 'row'],
 						 alignItems: 'center',
 						 height: '320px'
 					 }}>
-						 <Box sx={{ flex: 1, position: 'relative' }}>
+						 <Box sx={{
+							 flex: 1,
+							 position: 'relative',
+							 display: ['none', 'none', 'block'],
+							}}>
 								<Img
 									fixed={loblaws.childImageSharp.fixed}
 									imgStyle={{ position: 'absolute' }}
 									sx={{
-										top: ['-28.5rem', '-28.5rem', '2.75rem'],
-										left: ['2.75rem', '2.75rem', '-8rem'],
-										width: ['240px', '240px', '719px'],
-										transform: ['rotate(12deg) scale(.55)', 'rotate(12deg) scale(.55)', 'none']
+										top: '3.5rem',
+										left: '-8rem',
 									}}
 								/>
+						</Box>
+
+						 <Box sx={{
+							 flex: 1,
+							 position: 'relative',
+							 display: ['block', 'block', 'none']
+						}}>
+							<Img
+								fixed={loblaws_mobile.childImageSharp.fixed}
+								imgStyle={{ position: 'absolute' }}
+								sx={{
+									top: '-19.5rem',
+								}}
+							/>
 						 </Box>
 
 							<Box sx={{
 								flex: 1,
 								width: '100%',
-								mt: ['-40rem', '-40rem', 0],
-								pl: [0, 0, 6]
+								mt: ['-20rem', '-20rem', 0],
+								pl: [0, 0, 6],
+								textAlign: 'center'
 							}}>
 								<Styled.h3 sx={{ mb: ['4px', '4px', '10px'] }}>By Popular Demand</Styled.h3>
 								<Styled.h2 sx={{
@@ -92,7 +115,7 @@ export default () => {
 										pt: ['8px', '8px', '4px'],
 										pb: ['6px', '6px', 0],
 										mb: [0, 0, '8px'],
-										lineHeight: ['22px', '22px', '52px'],
+										lineHeight: ['24px', '24px', '52px'],
 										color: 'white',
 										backgroundColor: 'secondary',
 										':before': {
