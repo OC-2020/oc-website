@@ -41,7 +41,7 @@ export default () => {
 				<span>Vegan<br /></span>
 				Non-gmo<br />
 				<span>Keto<br /></span>
-				
+
 				Glyphosate Free<br />
 				Diabetic friendly
 			</h1>

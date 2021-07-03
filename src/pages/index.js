@@ -7,6 +7,7 @@ import Logos from '../sections/logos'
 import Testimonials from '../components/testimonials'
 import FAQ from '../sections/faq'
 import Slanted from '../sections/slanted'
+import Story from '../sections/story'
 import Video from '../sections/video'
 import TextSliders from '../sections/textsliders'
 import Instagram from '../sections/instagram'
@@ -19,6 +20,7 @@ export default () => (
     <Hero />
     <Logos />
     <Slanted />
+    <Story />
     <Vegan />
     <Testimonials />
     <TextSliders />
