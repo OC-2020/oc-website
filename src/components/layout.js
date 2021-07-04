@@ -56,9 +56,7 @@ export default ({ children, home }) => {
         })}
       />
 
-      {home &&
-        <NowAt />
-      }
+      {home && <NowAt />}
 
       <Header siteTitle={title} />
 

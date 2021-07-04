@@ -24,7 +24,7 @@ export default () => {
 	return (
 		<section sx={{
 			position: 'relative',
-			mt: ['84vw', '84vw', '22vw'],
+			mt: ['84vw', '84vw', '26vw'],
 			px: [0, 0, '6vw'],
 		}}>
 			<h1 sx={{

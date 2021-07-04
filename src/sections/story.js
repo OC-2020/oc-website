@@ -1,8 +1,7 @@
 /** @jsx jsx */
-import { jsx, Styled, Container, Box, Button } from 'theme-ui'
-import { useStaticQuery, graphql, Link } from 'gatsby'
+import { jsx, Styled, Container, Box } from 'theme-ui'
+import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import Arrow from '../assets/arrow-btn.svg'
 
 export default () => {
   const {
@@ -135,10 +134,6 @@ export default () => {
 				}}>
 					<Img fixed={glass_mobile.childImageSharp.fixed} />
 				</Box>
-
-				<Button sx={{ mt: 6 }}>
-					Ready Our Story <Arrow sx={{ marginLeft: 4 }} />
-				</Button>
 			</Container>
 		</section>
 	)
