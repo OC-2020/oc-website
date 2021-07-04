@@ -56,13 +56,11 @@ export default ({ children, home }) => {
         })}
       />
 
-      {home &&
-        <NowAt />
-      }
+      {home && <NowAt />}
 
       <Header siteTitle={title} />
 
-      <main role="main">{children}</main>
+      <main role="main" sx={{ overflow: ['hidden', 'hidden', 'visible'] }}>{children}</main>
 
       <Footer />
     </React.Fragment>

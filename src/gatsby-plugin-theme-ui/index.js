@@ -187,33 +187,41 @@ export default {
       textRendering: "optimizeLegibility",
     },
     h1: {
-      m: "0px",
+      m: 0,
       fontFamily: "eastman",
       fontSize: ["32px", "32px", "100px"],
       lineHeight: ["40px", "40px", "105px"],
       textTransform: "uppercase",
     },
     h2: {
-      m: "0px",
+      m: 0,
       fontFamily: "eastman",
       fontSize: ["32px", "32px", "54px"],
       lineHeight: ["40px", "40px", "49px"],
       textTransform: "uppercase",
     },
     h3: {
-      m: "0px",
+      m: 0,
       fontFamily: "barlow",
       fontSize: ["22px", "22px", "32px"],
       fontWeight: 600,
       textTransform: "uppercase",
     },
     h4: {
-      m: "0px",
+      m: 0,
       fontFamily: "barlow",
       fontSize: "18px",
       fontWeight: 600,
       textTransform: "uppercase",
       color: "white"
+    },
+    h5: {
+      m: 0,
+      fontFamily: "eastman",
+      fontSize: ["14px", "14px", "24px"],
+      fontWeight: 300,
+      lineHeight: ["20px", "20px", "32px"],
+      color: "text"
     },
     p: {
       fontSize: [1, 2],
