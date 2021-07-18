@@ -1,9 +1,8 @@
 /** @jsx jsx */
-import { jsx, Styled, Container } from 'theme-ui'
-import { useStaticQuery, graphql } from 'gatsby'
+import { jsx, Styled, Container, Button } from 'theme-ui'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 import { Fade } from 'react-awesome-reveal'
 import Img from 'gatsby-image'
-import ShopBtn from './shopbtn'
 
 export default () => {
   const {
@@ -96,13 +95,17 @@ export default () => {
           Zero Sugar &<br /> Keto Friendly<br /> <span>Oat M*lk</span>
         </Styled.h1>
 
-        <ShopBtn sx={{
-          position: 'absolute',
-          top: ['10rem', '10rem', 'auto'],
-          right: ['4rem', '4rem', '19rem'],
-          bottom: 0,
-          mt: [4, 4, 4]
-        }} />
+        <Link to="/stores">
+          <Button variant="round" sx={{
+            position: 'absolute',
+            top: ['10rem', '10rem', 'auto'],
+            right: ['4rem', '4rem', '19rem'],
+            bottom: 0,
+            mt: [4, 4, 4]
+          }}>
+            Find in stores
+          </Button>
+        </Link>
       </Container>
     </Fade>
   )

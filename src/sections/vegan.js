@@ -1,8 +1,7 @@
 /** @jsx jsx */
-import { jsx, Text } from 'theme-ui'
-import { useStaticQuery, graphql } from 'gatsby'
+import { jsx, Text, Button } from 'theme-ui'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 import Img from 'gatsby-image'
-import ShopBtn from '../components/shopbtn'
 
 export default () => {
   const {
@@ -56,11 +55,21 @@ export default () => {
 				}}
 			/>
 
-			<ShopBtn sx={{
+			{/* <ShopBtn sx={{
 				position: 'absolute',
 				top: ['-32vw', '-32vw', '1vw'],
 				left: ['15vw', '15vw', '56vw']
-			}} />
+			}} /> */}
+
+			<Link to="/stores">
+				<Button variant="round" sx={{
+					position: 'absolute',
+					top: ['-32vw', '-32vw', '1vw'],
+					left: ['15vw', '15vw', '56vw']
+				}}>
+					Find in stores
+				</Button>
+			</Link>
 
 			<Text sx={{
 				display: ['none', 'none', 'block'],
