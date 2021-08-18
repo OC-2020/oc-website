@@ -2,7 +2,6 @@
 import { useState } from "react"
 import { jsx, Container, Flex, Button } from "theme-ui"
 import { Link } from "gatsby"
-import ArrowBtn from "./arrowbtn"
 import Burger from "./burger"
 import MobileMenu from "./mobileMenu"
 import Logo from "../assets/logo.svg"

@@ -3,6 +3,8 @@ import { jsx, Styled, Container, Flex } from "theme-ui"
 import { useState, useEffect } from "react"
 import Layout from "../components/layout"
 import Map from "../sections/map"
+import Newsletter from "../sections/newsletter"
+import Partners from "../sections/partners"
 import Forms from "../sections/forms"
 import CartOutline from "../assets/cart_outline.svg"
 import TeaOutline from "../assets/tea_outline.svg"
@@ -109,7 +111,11 @@ export default () => {
             px: [4, 4, 0],
           }}
         >
-          <StoreTypeahead setSelectedStore={setSelectedStore} maps={mapApi} onPlacesChanged={setSelectedPlace} />
+          <StoreTypeahead
+            setSelectedStore={setSelectedStore}
+            maps={mapApi}
+            onPlacesChanged={setSelectedPlace}
+          />
         </Flex>
 
         <Map
@@ -123,6 +129,10 @@ export default () => {
           setMapApi={setMapApi}
         />
       </section>
+
+      <Partners />
+
+      <Newsletter />
 
       <Container sx={{ pb: 8 }} id="forms">
         <Forms />

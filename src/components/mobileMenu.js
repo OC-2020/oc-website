@@ -32,13 +32,6 @@ export default ({ showMenu, setShowMenu }) => (
     />
 
     <ArrowBtn
-      link="https://www.costco.ca/oat-canada-barista-sugar-free-oat-milk%2c-6-x-946-ml.product.100656800.html"
-      conversion="AW-564308269/VhVCCJyJte0BEK3Sio0C"
-    >
-      shop costco.ca
-    </ArrowBtn>
-
-    <ArrowBtn
       link="https://well.ca/products/oat-canada-barista-approved-oat-milk_194746.html"
       conversion="AW-564308269/7NBhCLOOpO0BEK3Sio0C"
       sx={{ mt: 1 }}
