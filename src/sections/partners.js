@@ -113,8 +113,9 @@ export default () => {
     const settings = {
       dots: true,
       autoplay: true,
-      speed: 2000,
+      speed: 3500,
       autoplaySpeed: 3500,
+      cssEase: "linear"
     }
 
     return (
