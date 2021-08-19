@@ -111,11 +111,7 @@ export default () => {
 
   const PartnerSlider = props => {
     const settings = {
-      dots: true,
-      autoplay: true,
-      speed: 3500,
-      autoplaySpeed: 3500,
-      cssEase: "linear"
+      dots: true
     }
 
     return (
