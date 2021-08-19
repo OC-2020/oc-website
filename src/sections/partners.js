@@ -133,68 +133,68 @@ export default () => {
           color: 'secondary'
         }
       }}>
-        <Box as="a" href="https://well.ca" sx={{ padding: '2rem' }}>
+        <Box sx={{ padding: '2rem' }}>
           <Img
             fluid={well.childImageSharp.fluid}
             imgStyle={{ objectFit: 'fill' }}
             loading="eager"
           />
         </Box>
-        <Box as="a" href="https://risemarket.ca/" sx={{ padding: '3rem' }}>
+        <Box sx={{ padding: '3rem' }}>
           <Img
             fluid={rise.childImageSharp.fluid}
             imgStyle={{ objectFit: 'fill' }}
             loading="eager"
           />
         </Box>
-        <Box as="a" href="https://luminateco.ca/" sx={{ padding: '2rem' }}>
+        <Box sx={{ padding: '2rem' }}>
           <Img
             fluid={luminate.childImageSharp.fluid}
             imgStyle={{ objectFit: 'fill' }}
             loading="eager"
           />
         </Box>
-        <Box as="a" href="https://smoothiesgo.com/" sx={{ padding: '3rem' }}>
+        <Box sx={{ padding: '3rem' }}>
           <Img
             fluid={smoothies.childImageSharp.fluid}
             imgStyle={{ objectFit: 'fill' }}
             loading="eager"
           />
         </Box>
-        <Box as="a" href="https://www.loblaws.ca/" sx={{ padding: '2rem' }}>
+        <Box sx={{ padding: '2rem' }}>
           <Img
             fluid={loblaws.childImageSharp.fluid}
             imgStyle={{ objectFit: 'fill' }}
             loading="eager"
           />
         </Box>
-        <Box as="a" href="https://www.fortinos.ca/" sx={{ padding: '2rem' }}>
+        <Box sx={{ padding: '2rem' }}>
           <Img
             fluid={fortinos.childImageSharp.fluid}
             imgStyle={{ objectFit: 'fill' }}
             loading="eager"
           />
         </Box>
-        <Box as="a" href="https://www.realcanadiansuperstore.ca/" sx={{ padding: '2rem' }}>
+        <Box sx={{ padding: '2rem' }}>
           <Img
             fluid={superstore.childImageSharp.fluid}
             imgStyle={{ objectFit: 'fill' }}
             loading="eager"
           />
         </Box>
-        <Box as="a" href="https://www.zehrs.ca/" sx={{ padding: '2rem' }}>
+        <Box sx={{ padding: '2rem' }}>
           <Img fluid={zehrs.childImageSharp.fluid} imgStyle={{ objectFit: 'fill' }} />
         </Box>
-        <Box as="a" href="https://www.nofrills.ca/" sx={{ padding: '2rem' }}>
+        <Box sx={{ padding: '2rem' }}>
           <Img fluid={frills.childImageSharp.fluid} imgStyle={{ objectFit: 'fill' }} />
         </Box>
-        <Box as="a" href="https://thesweetpotato.ca/" sx={{ padding: '2rem' }}>
+        <Box sx={{ padding: '2rem' }}>
           <Img fluid={sweet.childImageSharp.fluid} imgStyle={{ objectFit: 'fill' }} />
         </Box>
-        <Box as="a" href="https://shopcoco.ca/" sx={{ padding: '2rem' }}>
+        <Box sx={{ padding: '2rem' }}>
           <Img fluid={coco.childImageSharp.fluid} imgStyle={{ objectFit: 'fill' }} />
         </Box>
-        <Box as="a" href="https://naturesemporium.com/" sx={{ padding: '3rem' }}>
+        <Box sx={{ padding: '3rem' }}>
           <Img fluid={natures.childImageSharp.fluid} imgStyle={{ objectFit: 'fill' }} />
         </Box>
       </Slider>
