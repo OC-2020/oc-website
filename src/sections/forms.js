@@ -4,8 +4,7 @@ import Arrow from "../assets/arrow-btn.svg"
 
 export default () => {
   return (
-    <Container
-      as="section"
+    <section
       sx={{
         position: "relative",
         display: "flex",
@@ -117,6 +116,6 @@ export default () => {
           </Button>
         </Flex>
       </div>
-    </Container>
+    </section>
   )
 }

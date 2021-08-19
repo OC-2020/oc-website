@@ -6,7 +6,7 @@ export default () => {
   return (
 		<section sx={{
 			position: 'relative',
-			mt: ['17rem', '17rem', '12rem'],
+			mt: ['3.5rem', '3.5rem', '12rem'],
 			pt: [5, 5, 0],
 			height: '360px',
 			backgroundColor: '#f9f9f9',
@@ -42,7 +42,11 @@ export default () => {
 					height: '100%',
 					textAlign: 'center'
 				}}>
-					<Styled.h5>Sign up to know when we launch our <br />ecommerce store & new products!</Styled.h5>
+					<Styled.h5 sx={{
+						fontSize: ["15px", "15px", "24px"]
+					}}>
+						Sign up to know when we launch our <br />ecommerce store & new products!
+					</Styled.h5>
 					<Flex
 							as="form"
 							action="https://usebasin.com/f/e954e7f86e07"

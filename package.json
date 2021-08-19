@@ -48,6 +48,7 @@
   ],
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "mobile": "gatsby develop -H 0.0.0.0"
   }
 }
