@@ -147,7 +147,7 @@ export default () => {
   )
 
   return (
-    <div sx={{ transform: ['rotate(-14.5deg)', 'rotate(-14.5deg)', 'rotate(-4deg)'] }}>
+    <div sx={{ transform: ['rotate(-3deg) scale(.85)', 'rotate(-3deg) scale(.85)', 'rotate(-3deg)'] }}>
       <Flex sx={{
         position: 'relative',
         alignItems: 'center',
@@ -155,7 +155,7 @@ export default () => {
         height: '100%',
         animationName: slide,
         animationTimingFunction: 'linear',
-        animationDuration: '30s',
+        animationDuration: '60s',
         animationIterationCount: 'infinite',
       }}>
         <Img
