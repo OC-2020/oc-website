@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Styled, Container, Flex, Input, Button } from "theme-ui"
+import { jsx, Styled, Flex, Input, Button } from "theme-ui"
 import Arrow from "../assets/arrow-btn.svg"
 
 export default () => {

@@ -97,7 +97,7 @@ export default () => {
           position: "relative",
           maxWidth: ["100%", "100%", "1440px"],
           mx: "auto",
-          mt: -4,
+          mt: ['4rem', '4rem', -4],
           mb: ["460px", "460px", 0],
         }}
       >

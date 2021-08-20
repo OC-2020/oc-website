@@ -3,6 +3,7 @@ import { jsx } from "theme-ui";
 import { useEffect, useRef } from "react";
 import GoogleMapReact from "google-map-react";
 import StoreMarker from "../components/storeMarker";
+import MapLogos from '../components/mapLogos'
 
 const mapOptions = {
   fullscreenControl: false,
@@ -48,6 +49,8 @@ export default ({
         height: ["500px", "600px", "722px"],
       }}
     >
+
+
       <GoogleMapReact
         bootstrapURLKeys={{
           key: "AIzaSyB9BcZb7i1KQlno4qcjJBXWHZBAllvLKNc",
@@ -105,6 +108,13 @@ export default ({
       >
         <polygon fill="white" points="100,0 100,100 0,100" />
       </svg>
+
+      <div sx={{
+        position: 'absolute',
+        top: ['-58.6rem', '-58.6rem', '-15rem'],
+      }}>
+        <MapLogos />
+      </div>
     </div>
   );
 };
