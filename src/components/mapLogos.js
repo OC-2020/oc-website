@@ -147,7 +147,13 @@ export default () => {
   )
 
   return (
-    <div sx={{ transform: ['rotate(-3deg) scale(.85)', 'rotate(-3deg) scale(.85)', 'rotate(-3deg)'] }}>
+    <div sx={{
+      transform: [
+        'rotate(-3deg) scale(.85) translateX(-560px)',
+        'rotate(-3deg) scale(.85) translateX(-560px)',
+        'rotate(-3deg)'
+      ],
+    }}>
       <Flex sx={{
         position: 'relative',
         alignItems: 'center',
