@@ -56,7 +56,7 @@ export default ({
           libraries: 'places'
         }}
         center={latlng}
-        zoom={zoomed ? zoomed : isMobile ? 4.5 : 5.7}
+        zoom={zoomed ? zoomed : isMobile ? 3.2 : 4}
         hideSettings={true}
         yesIWantToUseGoogleMapApiInternals
         onGoogleApiLoaded={({ maps }) => {

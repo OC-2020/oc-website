@@ -16,12 +16,12 @@ export default () => {
   const [latlng, setLatlng] = useState(
     isMobile
       ? {
-          lat: 41.74295282305372,
-          lng: -70.9589970265489,
+          lat: 50.74295282305372,
+          lng: -95.9589970265489,
         }
       : {
-          lat: 44.74295282305372,
-          lng: -65.5159970265489,
+          lat: 50.84295282305372,
+          lng: -74.0159970265489,
         }
   )
   const [zoomed, setZoomed] = useState(false)
