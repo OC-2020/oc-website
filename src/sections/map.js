@@ -3,6 +3,7 @@ import { jsx } from "theme-ui";
 import { useEffect, useRef } from "react";
 import GoogleMapReact from "google-map-react";
 import StoreMarker from "../components/storeMarker";
+import MapLogos from '../components/mapLogos'
 
 const mapOptions = {
   fullscreenControl: false,
@@ -45,16 +46,17 @@ export default ({
         width: "100%",
       }}
       sx={{
-        height: ["500px", "600px", "722px"],
+        height: ["500px", "600px", "722px"]
       }}
     >
+
       <GoogleMapReact
         bootstrapURLKeys={{
           key: "AIzaSyB9BcZb7i1KQlno4qcjJBXWHZBAllvLKNc",
           libraries: 'places'
         }}
         center={latlng}
-        zoom={zoomed ? zoomed : isMobile ? 4.5 : 5.7}
+        zoom={zoomed ? zoomed : isMobile ? 3.2 : 4}
         hideSettings={true}
         yesIWantToUseGoogleMapApiInternals
         onGoogleApiLoaded={({ maps }) => {
@@ -76,35 +78,30 @@ export default ({
         ))}
       </GoogleMapReact>
 
-      <svg
-        className="slanted-top"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 100 100"
-        preserveAspectRatio="none"
-        sx={{
-          position: "absolute",
-          top: 0,
-          width: "100%",
-          height: "100px",
-        }}
-      >
-        <polygon fill="white" points="0,0 0,100 100,0" />
-      </svg>
+      <div sx={{
+        position: "absolute",
+        top: '-3rem',
+        width: "calc(100% + 4rem)",
+        height: "100px",
+        background: 'white',
+        transform: 'translateX(-2rem) rotate(-3deg)'
+      }} />
 
-      <svg
-        className="slanted-bottom"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 100 100"
-        preserveAspectRatio="none"
-        sx={{
-          position: "absolute",
-          bottom: 0,
-          width: "100%",
-          height: "100px",
-        }}
-      >
-        <polygon fill="white" points="100,0 100,100 0,100" />
-      </svg>
+      <div sx={{
+        position: "absolute",
+        bottom: '-3rem',
+        width: "calc(100% + 4rem)",
+        height: "100px",
+        background: 'white',
+        transform: 'translateX(-2rem) rotate(-3deg)'
+      }} />
+
+      <div sx={{
+        position: 'absolute',
+        top: ['-13rem', '-13rem', '-11.5rem'],
+      }}>
+        <MapLogos />
+      </div>
     </div>
   );
 };

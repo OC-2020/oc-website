@@ -100,18 +100,9 @@ export default () => {
                 Well.ca
               </ArrowBtn>
 
-              <ArrowBtn
-                link="https://www.costco.ca/oat-canada-barista-sugar-free-oat-milk%2c-6-x-946-ml.product.100656800.html"
-                conversion="AW-564308269/VhVCCJyJte0BEK3Sio0C"
-                footer
-              >
-                Costco.ca
-              </ArrowBtn>
               <Link
                 to="/stores"
                 sx={{
-                  position: ["relative", "relative", "absolute"],
-                  top: ["auto", "auto", "102%"],
                   textDecoration: "none",
                   fontStyle: "italic",
                   fontFamily: "averta",
