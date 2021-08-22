@@ -227,7 +227,7 @@ export default () => {
 			mt: [6, 6, 14]
 		}}>
 			<Container>
-        <Styled.h3 sx={{ mb: 2 }}>Or Shop Our</Styled.h3>
+        <Styled.h3 sx={{ mb: 2 }}>Or Shop At Our</Styled.h3>
         <Styled.h2 sx={{ mb: ['-2rem', '-2rem', 1] }}>Online Retail Partners</Styled.h2>
 
 				<Flex sx={{
