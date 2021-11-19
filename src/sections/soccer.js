@@ -89,11 +89,7 @@ export default () => {
             <Img
               fixed={soccer.childImageSharp.fixed}
               imgStyle={{ position: "absolute" }}
-              sx={{
-                top: "-5.85rem",
-                left: "0",
-                transform: "rotate(1.87deg)",
-              }}
+              sx={{ top: "-7.95rem" }}
             />
           </Box>
 
@@ -108,10 +104,7 @@ export default () => {
             <Img
               fixed={soccer_mobile.childImageSharp.fixed}
               imgStyle={{ position: "absolute" }}
-              sx={{
-                // top: "-10rem",
-                transform: "rotate(1.87deg)",
-              }}
+              sx={{ top: "-0.45rem" }}
             />
           </Box>
 
