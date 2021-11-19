@@ -62,7 +62,7 @@ export default () => {
               />
             </svg>
           </a>
-          <a href="twitter.com">
+          <a href="https://twitter.com/intent/tweet?text=Oat%20Canada%20is%20now%20the%20Official%20Plant%20Protein%20Partner%20of%20Canada%20Soccer%20and%20the%20CPL%20https://oatcanada.com/press-release">
             <svg
               width="24"
               height="20"
@@ -76,7 +76,7 @@ export default () => {
               />
             </svg>
           </a>
-          <a href="linkedin.com">
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=http://www.oatcanada.com">
             <svg
               width="22"
               height="22"
