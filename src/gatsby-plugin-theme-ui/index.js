@@ -213,7 +213,7 @@ export default {
       fontSize: "18px",
       fontWeight: 600,
       textTransform: "uppercase",
-      color: "white"
+      color: "white",
     },
     h5: {
       m: 0,
@@ -221,7 +221,7 @@ export default {
       fontSize: ["14px", "14px", "24px"],
       fontWeight: 300,
       lineHeight: ["20px", "20px", "32px"],
-      color: "text"
+      color: "text",
     },
     p: {
       fontSize: [1, 2],
