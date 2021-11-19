@@ -36,16 +36,13 @@ export default ({ children, home }) => {
           "::selection": {
             backgroundColor: "#ffb3d2",
           },
-          html: {
-            scrollBehavior: "smooth",
-          },
           body: {
             margin: 0,
             overflowX: "hidden",
           },
           ".pac-container": {
-            visibility: 'hidden',
-            pointerEvents: 'none'
+            visibility: "hidden",
+            pointerEvents: "none",
           },
           a: {
             color: "#0000ff",
@@ -60,7 +57,9 @@ export default ({ children, home }) => {
 
       <Header siteTitle={title} />
 
-      <main role="main" sx={{ overflow: ['hidden', 'hidden', 'visible'] }}>{children}</main>
+      <main role="main" sx={{ overflow: ["hidden", "hidden", "visible"] }}>
+        {children}
+      </main>
 
       <Footer />
     </React.Fragment>
