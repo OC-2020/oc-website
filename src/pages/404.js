@@ -1,13 +1,17 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui"
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import { jsx, Container, Styled, Text } from "theme-ui"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <h1 sx={{ mt: 5, mb: 0 }}> Down Not Found</h1>
-    <p sx={{ mt: 0, mb: 5 }}>We couldn't find the down you were looking for.</p>
+    <Container>
+      <Styled.h2 sx={{ mt: [10, 10, 5], mb: 0 }}>Page Not Found :(</Styled.h2>
+      <Text sx={{ mt: [4, 4, 10], mb: 10 }}>
+        We couldn't find the page that you were looking for.
+      </Text>
+    </Container>
   </Layout>
 )
 
