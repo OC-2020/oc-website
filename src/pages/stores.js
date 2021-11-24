@@ -27,7 +27,7 @@ export default () => {
   const [zoomed, setZoomed] = useState(false)
   const [selectedStore, setSelectedStore] = useState(null)
   const [selectedPlace, setSelectedPlace] = useState(null)
-  const [mapApi, setMapApi] = useState(null);
+  const [mapApi, setMapApi] = useState(null)
 
   useEffect(() => {
     if (!selectedStore) {
@@ -54,12 +54,23 @@ export default () => {
 
     const coords = {
       lat: selectedPlace[0].geometry.location.lat(),
-      lng: isMobile ? selectedPlace[0].geometry.location.lng() + 0.0009 : selectedPlace[0].geometry.location.lng() + 0.075,
+      lng: isMobile
+        ? selectedPlace[0].geometry.location.lng() + 0.0009
+        : selectedPlace[0].geometry.location.lng() + 0.075,
     }
 
     setLatlng(coords)
     setZoomed(12)
   }, [selectedPlace])
+
+  const convert = (conversion) => {
+    typeof window !== "undefined" &&
+      window.gtag("event", "conversion", { send_to: conversion })
+  }
+
+  useEffect(() => {
+    convert("AW-564308269/jFefCI6SlIUDEK3Sio0C")
+  }, [])
 
   return (
     <Layout>
@@ -97,7 +108,7 @@ export default () => {
           position: "relative",
           maxWidth: ["100%", "100%", "1440px"],
           mx: "auto",
-          mt: ['4rem', '4rem', -4],
+          mt: ["4rem", "4rem", -4],
           mb: ["460px", "460px", 0],
         }}
       >
