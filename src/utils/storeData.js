@@ -6507,6 +6507,15 @@ export default [
     lng: -79.67718145980791,
     link: "https://goo.gl/maps/wWzG1DtFWs6RrpRZ9",
   },
+  {
+    id: 729,
+    name: "The Organic Grocer",
+    address: "508–7380 King George Blvd, Surrey BC V3W 5A5",
+    icon: "cart",
+    lat: 49.13674166881936, 
+    lng: -122.84476554105048,
+    link: "https://goo.gl/maps/kVUnv3aozJRz5o2t5",
+  },
  
 
 
