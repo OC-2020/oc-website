@@ -38,7 +38,8 @@ export default () => {
           Oat Canada Announces New Partnership with Canada Soccer
         </Styled.h2>
         <Styled.h3 sx={{ mt: 2 }}>
-          Official Plant Protein Partner of Canada Soccer and Canadian Premier League
+          Official Plant Protein Partner of Canada Soccer and Canadian Premier
+          League
         </Styled.h3>
         <Flex
           sx={{
@@ -48,7 +49,7 @@ export default () => {
             mt: 5,
           }}
         >
-          <a href="https://www.facebook.com/sharer/sharer.php?u=https://oatcanada.com/press-release">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=https://oatcanada.com/oat-canada-announces-new-partnership-with-canada-soccer">
             <svg
               width="24"
               height="24"
@@ -62,7 +63,7 @@ export default () => {
               />
             </svg>
           </a>
-          <a href="https://twitter.com/intent/tweet?text=Oat%20Canada%20is%20now%20the%20Official%20Plant%20Protein%20Partner%20of%20Canada%20Soccer%20and%20the%20CPL%20https://oatcanada.com/press-release">
+          <a href="https://twitter.com/intent/tweet?text=Oat%20Canada%20is%20now%20the%20Official%20Plant%20Protein%20Partner%20of%20Canada%20Soccer%20and%20the%20CPL%20https://oatcanada.com/oat-canada-announces-new-partnership-with-canada-soccer">
             <svg
               width="24"
               height="20"
@@ -110,15 +111,32 @@ export default () => {
         />
         <section sx={{ mt: [6, 6, "60px"] }}>
           <Text sx={{ mt: [4, 4, 6] }}>
-            Toronto, ON (December 7, 2021) – Oat Canada and Canada Soccer have announced an exclusive multi-year partnership encompassing Canada Soccer’s National Teams and the Canadian Premier League (CPL).  Oat Canada will be the “Official Plant Protein Partner” of Canada Soccer ahead of what is scheduled to be a very busy 2022 year including FIFA World Cup Qatar 2022™ Qualifiers matches and FIFA Women’s World Cup 2023™ Qualifiers. This partnership supports Oat Canada's strategic direction to deliver higher protein plant-based products with maximum nutritional value for athletes and consumers alike across Canada and beyond. 
+            Toronto, ON (December 7, 2021) – Oat Canada and Canada Soccer have
+            announced an exclusive multi-year partnership encompassing Canada
+            Soccer’s National Teams and the Canadian Premier League (CPL). Oat
+            Canada will be the “Official Plant Protein Partner” of Canada Soccer
+            ahead of what is scheduled to be a very busy 2022 year including
+            FIFA World Cup Qatar 2022™ Qualifiers matches and FIFA Women’s World
+            Cup 2023™ Qualifiers. This partnership supports Oat Canada's
+            strategic direction to deliver higher protein plant-based products
+            with maximum nutritional value for athletes and consumers alike
+            across Canada and beyond.
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
-            This news release comes ahead of Oat Canada’s disruptive innovation project announcement – a project which is expected to benefit both consumers and companies in the food and beverage industry. In addition to the Canada Soccer partnership, Oat Canada is preparing to launch a suite of new products in 2022.  
+            This news release comes ahead of Oat Canada’s disruptive innovation
+            project announcement – a project which is expected to benefit both
+            consumers and companies in the food and beverage industry. In
+            addition to the Canada Soccer partnership, Oat Canada is preparing
+            to launch a suite of new products in 2022.
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
-            Oat Canada will be featured as a presenting sponsor of one Canada Soccer National Team match per year, including a FIFA World Cup Qatar 2022™ Qualifiers match. Oat Canada will also be an official partner of the 2022 editions of the Canadian Championship and Toyota National Championships.   
+            Oat Canada will be featured as a presenting sponsor of one Canada
+            Soccer National Team match per year, including a FIFA World Cup
+            Qatar 2022™ Qualifiers match. Oat Canada will also be an official
+            partner of the 2022 editions of the Canadian Championship and Toyota
+            National Championships.
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
@@ -155,11 +173,20 @@ export default () => {
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
-            Oat Canada is the first plant protein company to partner with Canada Soccer, a timely collaboration as the world increasingly shifts towards plant-based choices. With this new plant protein partnership, Oat Canada is setting a new standard for functional foods and leading the way to a plant-powered and more sustainable future.
+            Oat Canada is the first plant protein company to partner with Canada
+            Soccer, a timely collaboration as the world increasingly shifts
+            towards plant-based choices. With this new plant protein
+            partnership, Oat Canada is setting a new standard for functional
+            foods and leading the way to a plant-powered and more sustainable
+            future.
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
-            Oat Canada will also have coast to coast reach through a full suite of sponsorships assets with all eight Canadian Premier League clubs including match day brand integration across each CPL match and original content and editorial on CanPL channels, providing fans with more engaging and informative updates.
+            Oat Canada will also have coast to coast reach through a full suite
+            of sponsorships assets with all eight Canadian Premier League clubs
+            including match day brand integration across each CPL match and
+            original content and editorial on CanPL channels, providing fans
+            with more engaging and informative updates.
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
@@ -178,7 +205,6 @@ export default () => {
           </Text>
         </section>
         <section sx={{ mt: [6, 6, "60px"] }}>
-         
           <Box sx={{ mt: 6 }}>
             <Text sx={{ mb: "4px", fontWeight: "bold" }}>About Oat Canada</Text>
             <Text>
@@ -196,8 +222,7 @@ export default () => {
               visit <a href="https://oatcanada.com">oatcanada.com.</a>
             </Text>
           </Box>
-          
-          
+
           <Box>
             <Text sx={{ mb: "4px", fontWeight: "bold" }}>
               About Canada Soccer

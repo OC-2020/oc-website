@@ -147,7 +147,7 @@ export default () => {
                 world’s transition to plant-protein.”
               </i>
             </Styled.h3>
-            <Link to="/press-release">
+            <Link to="/oat-canada-announces-new-partnership-with-canada-soccer">
               <Button sx={{ mt: 6 }}>
                 Press Release <Arrow sx={{ marginLeft: 4 }} />
               </Button>
