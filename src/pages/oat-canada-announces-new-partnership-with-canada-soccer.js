@@ -223,7 +223,7 @@ export default () => {
             </Text>
           </Box>
 
-          <Box>
+          <Box sx={{ mt: 6 }}>
             <Text sx={{ mb: "4px", fontWeight: "bold" }}>
               About Canada Soccer
             </Text>
