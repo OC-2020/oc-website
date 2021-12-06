@@ -8,14 +8,14 @@ export default () => {
   const { soccer, soccer_mobile } = useStaticQuery(
     graphql`
       query {
-        soccer: file(relativePath: { eq: "press-home.jpg" }) {
+        soccer: file(relativePath: { eq: "press-home-new.jpg" }) {
           childImageSharp {
             fixed(width: 812, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
-        soccer_mobile: file(relativePath: { eq: "press-home.jpg" }) {
+        soccer_mobile: file(relativePath: { eq: "press-home-new.jpg" }) {
           childImageSharp {
             fixed(width: 340, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
@@ -30,7 +30,7 @@ export default () => {
     <section
       sx={{
         position: "relative",
-        mt: ["12rem", "12rem", "12rem"],
+        mt: ["12rem", "12rem", "14rem"],
         pt: [5, 5, 0],
         height: ["420px", "420px", "460px"],
         backgroundColor: "#231F20",

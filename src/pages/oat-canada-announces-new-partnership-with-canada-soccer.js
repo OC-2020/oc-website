@@ -8,7 +8,7 @@ export default () => {
   const { press_image } = useStaticQuery(
     graphql`
       query {
-        press_image: file(relativePath: { eq: "press-release.jpg" }) {
+        press_image: file(relativePath: { eq: "press-release-new.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 950, quality: 100) {
               ...GatsbyImageSharpFluid_withWebp_noBase64
