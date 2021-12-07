@@ -73,9 +73,9 @@ export default () => {
             left: ["15vw", "15vw", "56vw"],
           }}
         >
-          Shop
+          Shop In
           <br />
-          online
+          Stores
         </Button>
       </Link>
 
