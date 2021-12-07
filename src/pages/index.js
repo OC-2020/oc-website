@@ -20,7 +20,7 @@ export default () => (
     <SEO />
     <Hero />
     <Logos />
-    <Soccer />
+    {/* <Soccer /> */}
     <Slanted />
     <Story />
     <Vegan />
