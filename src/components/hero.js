@@ -111,7 +111,7 @@ export default () => {
               mt: [4, 4, 4],
             }}
           >
-            Shop In
+            Find In
             <br />
             Stores
           </Button>
