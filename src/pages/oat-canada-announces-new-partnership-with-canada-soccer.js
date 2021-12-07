@@ -124,9 +124,9 @@ export default () => {
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
-            This news release comes ahead of Oat Canada’s disruptive innovation
+            This news release comes ahead of Oat Canada’s new innovation
             project announcement – a project which is expected to benefit both
-            consumers and companies in the food and beverage industry. In
+            consumers and companies throughout the food and beverage industry. In
             addition to the Canada Soccer partnership, Oat Canada is preparing
             to launch a suite of new products in 2022.
           </Text>
@@ -182,7 +182,7 @@ export default () => {
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
-            Oat Canada will also have coast to coast reach through a full suite
+            This partnership will provide coast to coast reach through a full suite
             of sponsorships assets with all eight Canadian Premier League clubs
             including match day brand integration across each CPL match and
             original content and editorial on CanPL channels, providing fans
