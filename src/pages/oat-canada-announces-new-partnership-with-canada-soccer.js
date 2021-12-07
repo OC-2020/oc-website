@@ -142,7 +142,7 @@ export default () => {
           <Text sx={{ mt: [4, 4, 6] }}>
             <i>
               “As an Ex-Semi-Professional soccer player, and having grown up in
-              the Canadian Soccer system ,I can say we are truly honoured for
+              the Canadian Soccer system, I can say we are truly honoured for
               Oat Canada to be part of Canadian history. This partnership with
               Canada Soccer and the Canadian Premier League will advance Oat
               Canada’s mission to accelerate the world’s transition to
