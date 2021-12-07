@@ -113,7 +113,7 @@ export default () => {
           >
             Shop
             <br />
-            online
+            In Stores
           </Button>
         </Link>
       </Container>
