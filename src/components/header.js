@@ -50,7 +50,7 @@ export default () => {
         >
           <Link to="/stores">
             <Button variant="small" sx={{ ml: 4 }}>
-              where to buy
+              Store Locator
             </Button>
           </Link>
         </Flex>
