@@ -84,7 +84,7 @@ export default (props) => {
       >
         Shop
         <br />
-        Now
+        In Stores
       </Button>
 
       <Modal
