@@ -164,7 +164,7 @@ export default () => {
               “Canada Soccer is excited to welcome such a dynamic and innovative
               company like Oat Canada to our family of partners,”
             </i>{" "}
-            said Peter Montopoli, Canada Soccer General Secretary.{" "}
+            said Dr. Nick Bontis, President, Canada Soccer.{" "}
             <i>
               “The interest and momentum for the sport in our country has never
               been higher and we look forward to growing together with Oat
