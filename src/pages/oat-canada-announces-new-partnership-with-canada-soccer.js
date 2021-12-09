@@ -217,8 +217,8 @@ export default () => {
               Den, where they received investment offers from all six Dragons.
               Oat Canada is committed to becoming the leader in oat
               protein-based products, producing low sugar, protein enriched food
-              and beverages that challenge soccer players to sustain their
-              health and the planet. For more information about Oat Canada,
+              and beverages that challenge athletes and consumers alike to sustain 
+              their health and the planet. For more information about Oat Canada,
               visit <a href="https://oatcanada.com">oatcanada.com.</a>
             </Text>
           </Box>
