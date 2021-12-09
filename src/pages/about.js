@@ -66,14 +66,14 @@ export default () => {
           <Text sx={{ mt: [4, 4, 6] }}>
             We’ve had the privilege to be featured on {" "}<a href="https://www.cbc.ca/dragonsden/m_pitches/oat-canada">CBC’s Dragons’ Den</a>. (Didn’t see the episode? Watch to find out what happened!) We’ve also been featured on {" "}<a href="https://vegnews.com/2021/8/sugar-free-oat-milk">VegNews</a>, {" "}<a href="https://issuu.com/ensembleiq/docs/cg07_2021?fr=sNjRhZjgwODQ2MQ">Canadian Grocer</a>, {" "}<a href="https://www.blogto.com/eat_drink/2020/06/toronto-zero-sugar-oat-milk-costco/">BlogTO</a>, {" "}<a href="https://www.thestar.com/local-vaughan/life/food-wine/2021/02/25/neighbourhood-eats-vaughan-markham-business-programs-help-couple-launch-oat-milk.html">Toronto Star</a>, and more. More recently, we’ve announced our exclusive partnership with Canada Soccer and the Canadian Premiere League! Oat Canada will be their “Official Plant Protein Partner”! Read all about it {" "}<a href="https://oatcanada.com/oat-canada-announces-new-partnership-with-canada-soccer/">here</a>.
           </Text>
-
+          </section>
           
 
-export default () => (
+
     <Video />
-)
 
 
+          <section sx={{ mt: [6, 6, "60px"] }}>
           <Text sx={{ mt: [4, 4, 6] }}>
             At Oat Canada, we’re committed to becoming the leader in oat-based products, producing low sugar, protein enriched food and beverages that challenge people to sustain their health and the planet.
           </Text>
