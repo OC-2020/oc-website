@@ -68,10 +68,11 @@ export default () => {
             lactose intolerant) and myself (I have a nut allergry), except for 
             the fact that most oat milks were loaded with sugar. This was especially 
             important to us because we come from families who suffer from diabetes
-            —Jamari’s grandma would especially be on his case about watching his 
-            sugar intake because he’s legit a sugar addict. So, we tried to find ways 
-            to cut out sugar as much as possible, especially in things where it just 
-            didn’t make sense to have a lot in—like milk. 
+            —my mom was recently diagnosed with Type 2 diabetes and Jamari’s grandma 
+            was especially on his case about watching his sugar intake because he’s 
+            legit a sugar addict. So, we tried to find ways to cut out sugar as much 
+            as possible, especially in things where it just didn’t make sense to 
+            have a lot in—like milk. 
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
