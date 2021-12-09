@@ -1,6 +1,7 @@
 /** @jsx jsx */
 import { jsx, Button } from "theme-ui"
 import { Link } from "gatsby"
+import Arrow from "../assets/arrow-btn.svg"
 import ArrowBtn from "./arrowbtn"
 import CloseBtn from "./closeBtn"
 
@@ -30,6 +31,20 @@ export default ({ showMenu, setShowMenu }) => (
         right: "20px",
       }}
     />
+
+    <Link
+      to="/about"
+      sx={{
+        textDecoration: "none",
+        fontFamily: "barlow",
+        textTransform: "uppercase",
+        fontWeight: 600,
+        fontSize: "16px",
+      }}
+    >
+      Our story
+      <Arrow sx={{ marginLeft: 1 }} />
+    </Link>
 
     <ArrowBtn
       link="https://well.ca/products/oat-canada-barista-approved-oat-milk_194746.html"

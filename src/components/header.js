@@ -4,6 +4,7 @@ import { jsx, Container, Flex, Button } from "theme-ui"
 import { Link } from "gatsby"
 import Burger from "./burger"
 import MobileMenu from "./mobileMenu"
+import Arrow from "../assets/arrow-btn.svg"
 import Logo from "../assets/logo.svg"
 import LogoMobile from "../assets/logo-small.svg"
 
@@ -48,6 +49,21 @@ export default () => {
             pb: [0, 0, "10px"],
           }}
         >
+          <Link
+            to="/about"
+            sx={{
+              mr: 4,
+              textDecoration: "none",
+              fontFamily: "barlow",
+              textTransform: "uppercase",
+              fontWeight: 600,
+              fontSize: "18px",
+            }}
+          >
+            Our story
+            <Arrow sx={{ marginLeft: 1 }} />
+          </Link>
+
           <Link to="/stores">
             <Button variant="small" sx={{ ml: 4 }}>
               Store Locator
