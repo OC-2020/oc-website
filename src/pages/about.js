@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Video from "../sections/video"
 
 export default () => {
-  const { press_image } = useStaticQuery(
+  const { about_image } = useStaticQuery(
     graphql`
       query {
         press_image: file(relativePath: { eq: "about-us-hero.png" }) {
@@ -22,6 +22,10 @@ export default () => {
 
   return (
     <Layout>
+    <Container sx={{ maxWidth: "1200px", mt: -6, px: [null, null, "2rem"] }}>
+    <Img fluid={about_image.childImageSharp.fluid} />
+    </Container>
+
       <Container sx={{ width: ["100%", "100%", "950px"], mt: [4, 4, 8] }}>
         <Styled.h3
           sx={{
