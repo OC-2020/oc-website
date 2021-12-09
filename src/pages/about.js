@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Container, Styled, Box, Text } from "theme-ui"
+import { jsx, Container, Styled, Flex, Box, Text } from "theme-ui"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
