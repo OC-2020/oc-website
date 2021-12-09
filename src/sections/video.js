@@ -58,7 +58,7 @@ export default () => {
 						fontSize: ['22px', '22px', '54px !important'],
 						lineHeight: '49px !important'
 					}}>
-						Watch our pitch <br />on the Dragon's Den!
+						Watch our pitch <br />on CBC’s Dragons' Den!
 					</Styled.h1>
 
 					<Play sx={{ transform: ['scale(.75)', 'scale(1)', 'scale(1)'] }} />
