@@ -6,7 +6,10 @@ import Layout from "../components/layout"
 import Video from "../sections/video"
 
 export default () => {
-  const { about_image } = useStaticQuery(
+  const { 
+    about_image,
+    signature_image
+  } = useStaticQuery(
     graphql`
       query {
         about_image: file(relativePath: { eq: "about-us-hero.png" }) {
@@ -15,19 +18,13 @@ export default () => {
               ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }
-        }
-      }
-    `
-  )
-  
-export default () => {
-  const { signature_image } = useStaticQuery(
-    graphql`
-      query {
-        signature_image: file(relativePath: { eq: "signature.png" }) {
+        } 
+         signature_image: file(relativePath: { eq: "signature.png" }) {
           childImageSharp {
             fluid(maxWidth: 200, quality: 100) {
               ...GatsbyImageSharpFluid_withWebp_noBase64
+                
+         
             }
           }
         }
