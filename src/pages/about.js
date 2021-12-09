@@ -19,6 +19,21 @@ export default () => {
       }
     `
   )
+  
+export default () => {
+  const { signature_image } = useStaticQuery(
+    graphql`
+      query {
+        signature_image: file(relativePath: { eq: "signature.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 200, quality: 100) {
+              ...GatsbyImageSharpFluid_withWebp_noBase64
+            }
+          }
+        }
+      }
+    `
+  )
 
   return (
     <Layout>
@@ -67,8 +82,8 @@ export default () => {
             When we discovered oat milk it worked great for Jamari (because he’s 
             lactose intolerant) and myself (I have a nut allergry), except for 
             the fact that most oat milks were loaded with sugar. This was especially 
-            important to us because we come from families who suffer from diabetes
-            —my mom was recently diagnosed with Type 2 diabetes and Jamari’s grandma 
+            important to us because we come from families who suffer from diabetes—my 
+            mom was recently diagnosed with type 2 diabetes and Jamari’s grandma 
             was especially on his case about watching his sugar intake because he’s 
             legit a sugar addict. So, we tried to find ways to cut out sugar as much 
             as possible, especially in things where it just didn’t make sense to 
@@ -160,9 +175,12 @@ export default () => {
             Lots of love, 
           </Text>
         </section>
-        
-
       </Container>
+
+<Container sx={{ width: ["100%", "100%", "950px"], mt: [4, 4, 8] }}>
+    <Img fluid={signature_image.childImageSharp.fluid} />
+    </Container>
+
     </Layout>
   )
 }
