@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, Container, Styled, Box, Text } from "theme-ui"
-// import { useStaticQuery, graphql } from "gatsby"
-// import Img from "gatsby-image"
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 import Layout from "../components/layout"
 import Video from "../sections/video"
 
@@ -72,18 +72,11 @@ export default () => {
 
           <Text sx={{ mt: [4, 4, 6] }}>
             We looked and looked for a zero sugar oat milk option but got tired of 
-            misleading labels like 
-            <i>
-            “unsweetened”
-            </i>{" "} 
-            or {" "}
-            <i>
-            “no sugar added”
-            </i>{" "}
-            on cartons with sugar contents as high as 10 grams to 17 grams of sugar 
-            in one serving. To give some perspective, that’s nearly half of the sugar 
-            found in a can of coke. So, we decided to take matters into our own hands. 
-            Thus, Oat Canada was born.
+            misleading labels like “unsweetened” or “no sugar added” on cartons with 
+            sugar contents as high as 10 grams to 17 grams of sugar in one serving. 
+            To give some perspective, that’s nearly half of the sugar found in a can 
+            of coke. So, we decided to take matters into our own hands. Thus, Oat 
+            Canada was born.
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
@@ -160,10 +153,7 @@ export default () => {
           <Text sx={{ mt: [4, 4, 6] }}>
             Lots of love, 
           </Text>
-        
-
-
-</section>
+        </section>
         
 
       </Container>
