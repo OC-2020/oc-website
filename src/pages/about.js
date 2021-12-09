@@ -174,7 +174,7 @@ export default () => {
         </section>
       </Container>
 
-<Container sx={{ width: ["100%", "100%", "200px"], mt: [4, 4, 8] }}>
+<Container sx={{ width: ["100%", "50%", "200px"], mt: [4, 4, 8] }}>
     <Img fluid={signature_image.childImageSharp.fluid} />
     </Container>
 
