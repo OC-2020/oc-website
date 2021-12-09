@@ -127,9 +127,9 @@ export default () => {
 
           <Text sx={{ mt: [4, 4, 6] }}>
             It’s a small step towards a healthier life,
-
+            <br />
             a small step towards a more sustainable planet.
-   
+            <br />
             Let’s help the planet and ourselves along the way.
           </Text>
 
@@ -139,11 +139,11 @@ export default () => {
 
           <Text sx={{ mt: [4, 4, 6] }}>
             Not everyone is going to drop sugar,
-     
+            <br />
             not everyone will become vegan,
-        
+            <br />
             not everyone is going to care about sustainability,
-          
+            <br />
             but...
           </Text>
 
