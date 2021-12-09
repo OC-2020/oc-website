@@ -111,7 +111,7 @@ export default () => {
         />
         <section sx={{ mt: [6, 6, "60px"] }}>
           <Text sx={{ mt: [4, 4, 6] }}>
-            Toronto, ON (December 7, 2021) – Oat Canada and Canada Soccer have
+            Toronto, ON (December 9, 2021) – Oat Canada and Canada Soccer have
             announced an exclusive multi-year partnership encompassing Canada
             Soccer’s National Teams and the Canadian Premier League (CPL). Oat
             Canada will be the “Official Plant Protein Partner” of Canada Soccer
