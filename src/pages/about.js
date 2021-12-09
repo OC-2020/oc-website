@@ -109,12 +109,13 @@ export default () => {
             and more. More recently, we’ve announced our exclusive partnership with Canada Soccer and the Canadian Premiere League! Oat Canada will be their “Official Plant Protein Partner”! Read all about it <a href="https://oatcanada.com/oat-canada-announces-new-partnership-with-canada-soccer/">here</a>.
           </Text>
           </section>
-          
+          </Container>
 
-
+<Container sx={{ maxWidth: "1200px", mt: -6, px: [null, null, "2rem"] }}>
     <Video />
+</Container>
 
-
+          <Container sx={{ width: ["100%", "100%", "950px"], mt: [4, 4, 8] }}>
           <section sx={{ mt: [6, 6, "60px"] }}>
           <Text sx={{ mt: [4, 4, 6] }}>
             At Oat Canada, we’re committed to becoming the leader in oat-based products, producing low sugar, protein enriched food and beverages that challenge people to sustain their health and the planet.
