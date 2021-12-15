@@ -28,7 +28,7 @@ export default () => (
     <TextSliders />
     <Instagram />
     <FAQ />
-    <Video />
+  {/* <Video /> */}
     <Contact />
   </Layout>
 )
