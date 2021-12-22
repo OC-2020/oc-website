@@ -94,16 +94,13 @@ export default () => {
             products, so that’s why you see a giant zero on the front of our
             packaging—no guessing and no confusion from misleading labels. We’re
             proud to have launched the first zero sugar and keto-friendly
-            barista oat milk in the market—especially to have launched our
-            business right in the middle of the pandemic in 2020.
+            barista oat milk in the market.
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
             Today, just a year later after launch, we are now available in over
             1,300 stores across Canada, including major retailers such as
-            Loblaws, Costco East, Longo’s and Whole Foods (January 2022). An
-            incredible feet considering Oat Canada only has one product in
-            market at moment!
+            Loblaws, Costco East, Longo’s and Whole Foods (January 2022).
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
