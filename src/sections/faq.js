@@ -23,7 +23,7 @@ export default () => {
 		},
 		{
 			question: 'Is your oat milk Gluten-Free?',
-			answer: 'We take celiacs disease very seriously. As such, after production our product immediately undergoes rigorous testing with Romer Labs in California for any traces of gluten.<br /><br /> As per Health Canada, a product having less than 20ppm of gluten is able to make the claim of gluten-free in Canada. Oat Canada’s Zero Sugar Oat Milk with expiration date of February 2022, April 2022, July 2022 have less than 2.0 ppm which is considered gluten-free!<br /><br /> We test every batch and we’re are happy to provide results upon request. '
+			answer: 'We take celiacs disease very seriously. As such, after production our product immediately undergoes rigorous testing with Romer Labs in California for any traces of gluten.<br /><br /> As per Health Canada, a product having less than 20ppm of gluten is able to make the claim of gluten-free in Canada. Oat Canada’s Zero Sugar Oat Milk with expiration date of April 2022, July 2022, and Oct 2022 have less than 2.0 ppm which is considered gluten-free!<br /><br /> We test every batch and we’re are happy to provide results upon request. '
 		},
 		{
 			question: 'Is it nut free?',
