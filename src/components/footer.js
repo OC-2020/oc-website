@@ -237,13 +237,13 @@ export default () => {
           }}
         >
           Copyright © Oat Canada 2020. <br />
-          All Rights Reserved.  
+          All Rights Reserved.   
           <a
                 href="https://www.termsfeed.com/live/379ea87a-1737-4ce7-b990-6abddb5d9a87"
                 target="_blank"
                 rel="noopener noreferrer"
                 sx={{ width: "24px" }}
-              > Privacy Policy. </a>
+              >Privacy Policy.</a>
         </Text>
       </Container>
     </footer>
