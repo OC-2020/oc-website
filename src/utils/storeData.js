@@ -37,12 +37,12 @@ export default [
   },
   {
     id: 5,
-    name: "Costco - Ottawa",
-    address: "1405 Blair Towers Pl, Ottawa, ON K1J 1A5",
+    name: "Costco - Downsview",
+    address: "100 Billy Bishop Way, Toronto, ON M3K 2C8",
     icon: "cart",
-    lat: 45.43548415837064,
-    lng: -75.60343334232795,
-    link: "https://goo.gl/maps/Kc9GSQ6PoQT2YAMw5",
+    lat: 43.73152586308908,
+    lng: -79.45614496138266,
+    link: "https://goo.gl/maps/HbsgoBGdzgxVtEBe7",
   },
   {
     id: 6,
@@ -55,13 +55,12 @@ export default [
   },
   {
     id: 7,
-    name: "Costco - Saint-Bruno",
-    address:
-      "1000 Boulevard Saint-Bruno, Saint-Bruno-de-Montarville, QC J3V 6J6",
+    name: "Costco - Ottawa",
+    address: "1405 Blair Towers Pl, Ottawa, ON K1J 1A5",
     icon: "cart",
-    lat: 45.50126167260886,
-    lng: -73.3817923018662,
-    link: "https://goo.gl/maps/F5iNXGUUsunydhwt6",
+    lat: 45.43548415837064,
+    lng: -75.60343334232795,
+    link: "https://goo.gl/maps/Kc9GSQ6PoQT2YAMw5",
   },
   {
     id: 8,
