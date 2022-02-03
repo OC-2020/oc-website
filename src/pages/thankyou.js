@@ -16,7 +16,7 @@ export default () => (
         <iframe
           title="THANK YOU"
           width="100%"
-          src="https://www.youtube.com/embed/NNT3am8BPLI"
+          src="https://www.youtube.com/embed/BkTJ0YiLcpQ"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           webkitallowfullscreen="true"
