@@ -109,14 +109,14 @@ export default () => {
           maxWidth: ["100%", "100%", "1440px"],
           mx: "auto",
           mt: ["4rem", "4rem", -4],
-          mb: ["460px", "460px", 0],
+          mb: ["620px", "620px", 0],
         }}
       >
         <Flex
           sx={{
             position: ["absolute", "absolute", "relative"],
             width: "100%",
-            top: ["320px", "320px", 0],
+            top: ["510px", "510px", 0],
             justifyContent: "flex-end",
             mb: 4,
             px: [4, 4, 0],

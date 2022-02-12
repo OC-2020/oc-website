@@ -1,15 +1,15 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui";
-import { useEffect, useRef } from "react";
-import GoogleMapReact from "google-map-react";
-import StoreMarker from "../components/storeMarker";
-import MapLogos from '../components/mapLogos'
+import { jsx } from "theme-ui"
+import { useEffect, useRef } from "react"
+import GoogleMapReact from "google-map-react"
+import StoreMarker from "../components/storeMarker"
+import MapLogos from "../components/mapLogos"
 
 const mapOptions = {
   fullscreenControl: false,
   zoomControl: false,
   gestureHandling: "cooperative",
-};
+}
 
 export default ({
   stores,
@@ -20,24 +20,24 @@ export default ({
   latlng,
   zoomed,
 }) => {
-  const isMobile = typeof window !== "undefined" && window.innerWidth < 600;
-  const storeRefs = stores.map(() => useRef());
+  const isMobile = typeof window !== "undefined" && window.innerWidth < 600
+  const storeRefs = stores.map(() => useRef())
 
   const handleClick = (store, key) => {
-    setSelectedStore(store);
-    storeRefs.map((ref) => ref.current.classList.remove("show-tooltip"));
-    storeRefs[key].current.classList.toggle("show-tooltip");
-  };
+    setSelectedStore(store)
+    storeRefs.map((ref) => ref.current.classList.remove("show-tooltip"))
+    storeRefs[key].current.classList.toggle("show-tooltip")
+  }
 
   const handleCloseClick = () => {
-    storeRefs.map((ref) => ref.current.classList.remove("show-tooltip"));
-  };
+    storeRefs.map((ref) => ref.current.classList.remove("show-tooltip"))
+  }
 
   useEffect(() => {
-    if (!selectedStore) return;
-    storeRefs.map((ref) => ref.current.classList.remove("show-tooltip"));
-    storeRefs[selectedStore.id - 1].current.classList.add("show-tooltip");
-  }, [storeRefs, selectedStore]);
+    if (!selectedStore) return
+    storeRefs.map((ref) => ref.current.classList.remove("show-tooltip"))
+    storeRefs[selectedStore.id - 1].current.classList.add("show-tooltip")
+  }, [storeRefs, selectedStore])
 
   return (
     <div
@@ -46,21 +46,20 @@ export default ({
         width: "100%",
       }}
       sx={{
-        height: ["500px", "600px", "722px"]
+        height: ["500px", "600px", "722px"],
       }}
     >
-
       <GoogleMapReact
         bootstrapURLKeys={{
           key: "AIzaSyB9BcZb7i1KQlno4qcjJBXWHZBAllvLKNc",
-          libraries: 'places'
+          libraries: "places",
         }}
         center={latlng}
         zoom={zoomed ? zoomed : isMobile ? 3.2 : 4}
         hideSettings={true}
         yesIWantToUseGoogleMapApiInternals
         onGoogleApiLoaded={({ maps }) => {
-          setMapApi(maps);
+          setMapApi(maps)
         }}
         options={mapOptions}
       >
@@ -78,30 +77,25 @@ export default ({
         ))}
       </GoogleMapReact>
 
-      <div sx={{
-        position: "absolute",
-        top: '-3rem',
-        width: "calc(100% + 4rem)",
-        height: "100px",
-        background: 'white',
-        transform: 'translateX(-2rem) rotate(-3deg)'
-      }} />
+      <div
+        sx={{
+          position: "absolute",
+          top: "-3rem",
+          width: "calc(100% + 4rem)",
+          height: "100px",
+          background: "white",
+          transform: "translateX(-2rem) rotate(-3deg)",
+        }}
+      />
 
-      <div sx={{
-        position: "absolute",
-        bottom: '-3rem',
-        width: "calc(100% + 4rem)",
-        height: "100px",
-        background: 'white',
-        transform: 'translateX(-2rem) rotate(-3deg)'
-      }} />
-
-      <div sx={{
-        position: 'absolute',
-        top: ['-13rem', '-13rem', '-11.5rem'],
-      }}>
+      <div
+        sx={{
+          position: "absolute",
+          top: ["-13rem", "-13rem", "-11.5rem"],
+        }}
+      >
         <MapLogos />
       </div>
     </div>
-  );
-};
+  )
+}
