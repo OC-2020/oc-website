@@ -22,7 +22,7 @@ export default () => (
     <Hero />
     <Logos />
     <PIC />
-    {/* <Soccer /> */}
+{/* <Soccer /> */}
     <Slanted />
     <Story />
     <Vegan />
