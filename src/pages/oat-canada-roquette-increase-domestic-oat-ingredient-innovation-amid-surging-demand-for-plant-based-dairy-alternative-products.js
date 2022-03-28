@@ -8,7 +8,7 @@ export default () => {
   const { press_image } = useStaticQuery(
     graphql`
       query {
-        press_image: file(relativePath: { eq: "PIC-Roquette-OatCanada-Graphic.png" }) {
+        press_image: file(relativePath: { eq: "PIC-Roquette-OatCanada-Graphic-Home.png" }) {
           childImageSharp {
             fluid(maxWidth: 950, quality: 100) {
               ...GatsbyImageSharpFluid_withWebp_noBase64

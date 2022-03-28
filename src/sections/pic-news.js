@@ -119,7 +119,7 @@ export default () => {
             <Styled.h2
               sx={{
                 color: "white",
-                fontSize: ["27px", "27px", "1px"],
+                fontSize: ["27px", "27px", "81px"],
                 lineHeight: [null, null, "86px"],
               }}
             >
