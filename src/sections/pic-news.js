@@ -5,17 +5,17 @@ import Img from "gatsby-image"
 import Arrow from "../assets/arrow-btn.svg"
 
 export default () => {
-  const { pic-news, pic-news_mobile } = useStaticQuery(
+  const { soccer, soccer_mobile } = useStaticQuery(
     graphql`
       query {
-        pic-news: file(relativePath: { eq: "PIC-Roquette-OatCanada-Graphic-Home.png" }) {
+        soccer: file(relativePath: { eq: "press-home-new.jpg" }) {
           childImageSharp {
             fixed(width: 812, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
-        pic-news_mobile: file(relativePath: { eq: "PIC-Roquette-OatCanada-Graphic-Home.png" }) {
+        soccer_mobile: file(relativePath: { eq: "press-home-new.jpg" }) {
           childImageSharp {
             fixed(width: 340, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
@@ -87,7 +87,7 @@ export default () => {
             }}
           >
             <Img
-              fixed={pic-news.childImageSharp.fixed}
+              fixed={soccer.childImageSharp.fixed}
               imgStyle={{ position: "absolute" }}
               sx={{ top: "-7.95rem" }}
             />
@@ -102,7 +102,7 @@ export default () => {
             }}
           >
             <Img
-              fixed={pic-news_mobile.childImageSharp.fixed}
+              fixed={soccer_mobile.childImageSharp.fixed}
               imgStyle={{ position: "absolute" }}
               sx={{ top: "-0.45rem" }}
             />
@@ -123,9 +123,9 @@ export default () => {
                 lineHeight: [null, null, "86px"],
               }}
             >
-              Expanding the
+              Official plant
               <br />
-              utility of oats
+              protein partner
             </Styled.h2>
           </Box>
 
@@ -142,10 +142,12 @@ export default () => {
               sx={{ fontSize: ["22px", "22px", "22px"], color: "white" }}
             >
               <i>
-                “Creating an oat milk that is actually nutritious meant collaborating with industry leaders and inventing entirely new technology”
+                “This partnership with Canada Soccer and the Canadian Premier
+                League will advance Oat Canada’s mission to accelerate the
+                world’s transition to plant-protein.”
               </i>
             </Styled.h3>
-            <Link to="/oat-canada-roquette-increase-domestic-oat-ingredient-innovation-amid-surging-demand-for-plant-based-dairy-alternative-products">
+            <Link to="/oat-canada-announces-new-partnership-with-canada-soccer">
               <Button sx={{ mt: 6 }}>
                 Press Release <Arrow sx={{ marginLeft: 4 }} />
               </Button>
