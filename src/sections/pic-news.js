@@ -5,17 +5,17 @@ import Img from "gatsby-image"
 import Arrow from "../assets/arrow-btn.svg"
 
 export default () => {
-  const { soccer, soccer_mobile } = useStaticQuery(
+  const { pic, pic_mobile } = useStaticQuery(
     graphql`
       query {
-        soccer: file(relativePath: { eq: "press-home-new.jpg" }) {
+        pic: file(relativePath: { eq: "press-home-new.jpg" }) {
           childImageSharp {
             fixed(width: 812, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
-        soccer_mobile: file(relativePath: { eq: "press-home-new.jpg" }) {
+        pic_mobile: file(relativePath: { eq: "press-home-new.jpg" }) {
           childImageSharp {
             fixed(width: 340, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
@@ -87,7 +87,7 @@ export default () => {
             }}
           >
             <Img
-              fixed={soccer.childImageSharp.fixed}
+              fixed={pic.childImageSharp.fixed}
               imgStyle={{ position: "absolute" }}
               sx={{ top: "-7.95rem" }}
             />
@@ -102,7 +102,7 @@ export default () => {
             }}
           >
             <Img
-              fixed={soccer_mobile.childImageSharp.fixed}
+              fixed={pic_mobile.childImageSharp.fixed}
               imgStyle={{ position: "absolute" }}
               sx={{ top: "-0.45rem" }}
             />
