@@ -41,6 +41,15 @@ export default () => {
           
         </Styled.h3>
 
+<Flex
+          sx={{
+            alignItems: "center",
+            justifyContent: "space-between",
+            width: "115px",
+            mt: 5,
+          }}
+        >
+
 
      {/*
 
@@ -121,14 +130,6 @@ export default () => {
         <section sx={{ mt: [6, 6, "60px"] }}>
           <Text sx={{ mt: [4, 4, 6] }}>
             Toronto, ON (March 22, 2022) – Today, Protein Industries Canada announced an investment into a project between Oat Canada, a rapidly growing oat-based food and beverage company, and Roquette, a global leader in plant-based ingredients. This $4.1 million project will see the development of novel oat ingredients and nutritionally superior oat-based food and beverage products.
-          </Text>
-
-          <Text sx={{ mt: [4, 4, 6] }}>
-            This news release comes ahead of Oat Canada’s new innovation
-            project announcement – a project which is expected to benefit both
-            consumers and companies throughout the food and beverage industry. In
-            addition to the Canada Soccer partnership, Oat Canada is preparing
-            to launch a suite of new products in 2022.
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
@@ -287,8 +288,8 @@ export default () => {
           </Text>
           <Text>
             Michelle Finley{" "}
-            <a href="mailto:Michelle.FINLEY@roquette.com">
-              Michelle.FINLEY@roquette.com
+            <a href="mailto:michelle.finley@roquette.com">
+              michelle.finley@roquette.com
             </a>
           </Text>
         </section>
