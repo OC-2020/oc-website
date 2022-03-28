@@ -6,6 +6,7 @@ import Hero from "../components/hero"
 import Logos from "../sections/logos"
 import Testimonials from "../components/testimonials"
 import FAQ from "../sections/faq"
+import PIC from "../sections/pic-news"
 import Soccer from "../sections/soccer"
 import Slanted from "../sections/slanted"
 import Story from "../sections/story"
@@ -20,7 +21,8 @@ export default () => (
     <SEO />
     <Hero />
     <Logos />
-    <Soccer />
+    <PIC />
+    {/* <Soccer /> */}
     <Slanted />
     <Story />
     <Vegan />
