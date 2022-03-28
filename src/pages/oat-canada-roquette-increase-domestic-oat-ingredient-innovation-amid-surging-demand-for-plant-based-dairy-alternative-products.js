@@ -161,7 +161,7 @@ export default () => {
             </i>{" "}
             said Jamari Ambursley, Co-Founder/COO of Oat Canada. {" "}
             <i>
-              “In 2020, we launched our zero sugar oat milk product which was the first oat-protein based food and beverage products in Canada and we are very excited to expand our product offering. As sustainability and environmental concerns continue to shift consumer preferences to plant-based alternatives, innovation is necessary to deliver equivalent, if not better, nutritional value as animal-based products. We remain focused and committed to innovation and will continue to collaborate with partners and customers, to produce products that give people the freedom to choose plant-based without sacrificing nutrition, functionality or taste.”
+              “In 2020, we launched our zero sugar oat milk product which was the first oat-protein based food and beverage product in Canada and we are very excited to expand our product offering. As sustainability and environmental concerns continue to shift consumer preferences to plant-based alternatives, innovation is necessary to deliver equivalent, if not better, nutritional value as animal-based products. We remain focused and committed to innovation and will continue to collaborate with partners and customers, to produce products that give people the freedom to choose plant-based without sacrificing nutrition, functionality or taste.”
             </i>
           </Text>
 
