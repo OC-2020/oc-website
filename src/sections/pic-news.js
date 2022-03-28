@@ -8,14 +8,14 @@ export default () => {
   const { pic, pic_mobile } = useStaticQuery(
     graphql`
       query {
-        pic: file(relativePath: { eq: "press-home-new.jpg" }) {
+        pic: file(relativePath: { eq: "PIC-Roquette-OatCanada-Graphic-Home.png" }) {
           childImageSharp {
             fixed(width: 812, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
-        pic_mobile: file(relativePath: { eq: "press-home-new.jpg" }) {
+        pic_mobile: file(relativePath: { eq: "PIC-Roquette-OatCanada-Graphic-Home.png" }) {
           childImageSharp {
             fixed(width: 340, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
@@ -123,9 +123,9 @@ export default () => {
                 lineHeight: [null, null, "86px"],
               }}
             >
-              Official plant
+              Expanding the
               <br />
-              protein partner
+              utility of oats
             </Styled.h2>
           </Box>
 
@@ -142,12 +142,10 @@ export default () => {
               sx={{ fontSize: ["22px", "22px", "22px"], color: "white" }}
             >
               <i>
-                “This partnership with Canada Soccer and the Canadian Premier
-                League will advance Oat Canada’s mission to accelerate the
-                world’s transition to plant-protein.”
+                “Creating an oat milk that is actually nutritious meant collaborating with industry leaders and inventing entirely new technology.”
               </i>
             </Styled.h3>
-            <Link to="/oat-canada-announces-new-partnership-with-canada-soccer">
+            <Link to="/oat-canada-roquette-increase-domestic-oat-ingredient-innovation-amid-surging-demand-for-plant-based-dairy-alternative-products">
               <Button sx={{ mt: 6 }}>
                 Press Release <Arrow sx={{ marginLeft: 4 }} />
               </Button>
