@@ -206,7 +206,7 @@ export default () => {
           </Text>
 
           <Text sx={{ mt: [4, 4, 6] }}>
-            This marks Protein Industries Canada’s 37thproject announcement, and the 27th under their technology program. Together with industry, Protein Industries Canada has committed more than $451 million to Canada’s plant-based food, feed and ingredients ecosystem.
+            This marks Protein Industries Canada’s 37th project announcement, and the 27th under their technology program. Together with industry, Protein Industries Canada has committed more than $451 million to Canada’s plant-based food, feed and ingredients ecosystem.
           </Text>
 
         </section>
@@ -232,8 +232,8 @@ export default () => {
               About Protein Industries Canada
             </Text>
             <Text>
-              Protein Industries Canada is an industry-led, not-for-profit organization committed to positioning Canada as a global source of high-quality plant-based food and ingredients. Over the past three years, Protein Industries Canada, along with industry, has committed more than $451 million to the Canadian plant-protein sector, primarily through projects focused on research and development or building capacity within the sector. For more information,{" "}
-              <a href="visit proteinindustriescanada.ca">visit proteinindustriescanada.ca</a>
+              Protein Industries Canada is an industry-led, not-for-profit organization committed to positioning Canada as a global source of high-quality plant-based food and ingredients. Over the past three years, Protein Industries Canada, along with industry, has committed more than $451 million to the Canadian plant-protein sector, primarily through projects focused on research and development or building capacity within the sector. For more information, visit{" "}
+              <a href="https://www.proteinindustriescanada.ca/news/leading-plant-protein-companies-are-making-the-switch-to-canadian-processed-oat-protein">proteinindustriescanada.ca</a>
             </Text>
           </Box>
 
@@ -242,19 +242,19 @@ export default () => {
             <Text sx={{ mb: "4px", fontWeight: "bold" }}>
               About Roquette
             </Text>
-            <Text>
+            <Text sx={{ mt: [4, 4, 6] }}>
               Roquette is a global leader in plant-based ingredients, a pioneer of plant proteins and a leading provider of pharmaceutical excipients. The group addresses current and future societal challenges by unlocking the potential of nature to offer the best ingredients for food, nutrition and health markets. In collaboration with customers who are also passionate about the ongoing food revolution, Roquette contributes to developing a whole new cuisine that meets consumers’ demands.
             </Text>
-            <Text>
+            <Text sx={{ mt: [4, 4, 6] }}>
               In the pharma sector, Roquette offers solutions that play a critical role in medical treatments that cure and save lives.
             </Text>
-            <Text>
+            <Text sx={{ mt: [4, 4, 6] }}>
             Thanks to a constant drive for innovation and a long-term vision, the group is committed to improving the well-being of millions of people all over the world, while taking care of resources and territories. Founded in 1933, Roquette is a family-owned company that operates in more than 100 countries, has a turnover of around 3.5 billion euros, and employs 8,360 people worldwide.
             </Text>
-            <Text>
+            <Text sx={{ mt: [4, 4, 6] }}>
             Roquette in Canada operates its brand new, state-of-the-art pea protein plant, the largest of its kind in the world, in Portage la Prairie, Manitoba. At capacity, the plant will employ 120 people and process 125,000MT of yellow peas annually. Products produced at the plant include NUTRALYS® pea protein, food-grade pea starch and pea-based ingredients suitable for pet food and livestock nutrition. Roquette, the anchor tenant of Canada’s growing plant-based protein sector, has invested more than half a billion euros in pea protein over the past five years, including more than CAD$600 million of its own funds for construction of the Portage pea protein plant.
             </Text>
-            <Text>
+            <Text sx={{ mt: [4, 4, 6] }}>
               Roquette has successfully participated in three PIC projects, including its collaboration with Oat Canada. For more information about Roquette, visit{" "}
               <a href="https://www.roquette.com/">roquette.com</a>
             </Text>
