@@ -6515,6 +6515,24 @@ export default [
     lng: -122.84476554105048,
     link: "https://goo.gl/maps/kVUnv3aozJRz5o2t5",
   },
+  {
+    id: 730,
+    name: "Pomme Natural Marker",
+    address: "#9 - 2755 Lougheed Hwy, Port Coquitlam BC V3B 5Y9",
+    icon: "cart",
+    lat: 49.27482598795116, 
+    lng: -122.78920023863516,
+    link: "https://g.page/pomme-natural-market-poco?share",
+  },
+  {
+    id: 731,
+    name: "Pomme Natural Marker",
+    address: "6560 Metral Drive, Nanaimo BC V9T 2L9",
+    icon: "cart",
+    lat: 49.234098020119305, 
+    lng: -124.04774103863515,
+    link: "https://goo.gl/maps/NEAmxuJzYpYGcTxs5",
+  },
  
 
 
