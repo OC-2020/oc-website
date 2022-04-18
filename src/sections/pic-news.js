@@ -8,14 +8,18 @@ export default () => {
   const { pic, pic_mobile } = useStaticQuery(
     graphql`
       query {
-        pic: file(relativePath: { eq: "PIC-Roquette-OatCanada-Graphic-Home.png" }) {
+        pic: file(
+          relativePath: { eq: "PIC-Roquette-OatCanada-Graphic-Home.png" }
+        ) {
           childImageSharp {
             fixed(width: 812, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
             }
           }
         }
-        pic_mobile: file(relativePath: { eq: "PIC-Roquette-OatCanada-Graphic-Home.png" }) {
+        pic_mobile: file(
+          relativePath: { eq: "PIC-Roquette-OatCanada-Graphic-Home.png" }
+        ) {
           childImageSharp {
             fixed(width: 340, quality: 100) {
               ...GatsbyImageSharpFixed_withWebp_noBase64
@@ -111,7 +115,7 @@ export default () => {
           <Box
             sx={{
               mt: [-6, -6, 0],
-              mr: [null, null, -7],
+              mr: [null, null, "4.5rem"],
               textAlign: ["center", "center", "left"],
               zIndex: 2,
             }}
@@ -142,7 +146,9 @@ export default () => {
               sx={{ fontSize: ["22px", "22px", "22px"], color: "white" }}
             >
               <i>
-                “Creating an oat milk that is actually nutritious meant collaborating with industry leaders and inventing entirely new technology.”
+                “Creating an oat milk that is actually nutritious meant
+                collaborating with industry leaders and inventing entirely new
+                technology.”
               </i>
             </Styled.h3>
             <Link to="/oat-canada-roquette-increase-domestic-oat-ingredient-innovation-amid-surging-demand-for-plant-based-dairy-alternative-products">
