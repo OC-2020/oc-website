@@ -131,42 +131,48 @@ export default ({ setSelectedStore, maps, onPlacesChanged }) => {
 
   const handleChange = (e) => {
     const text = e.target.value
-    const filteredStores = storeData.filter((store) =>
-      store.address
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase()
-        .includes(text.toLowerCase())
+    const filteredStores = storeData.filter(
+      (store) =>
+        store.address
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase()
+          .includes(text.toLowerCase()) ||
+        store.name
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase()
+          .includes(text.toLowerCase())
     )
 
     setSearchText(text)
     setSuggestions(text.length < 1 ? storeData : filteredStores)
   }
 
-  const input = useRef(null);
-  const searchBox = useRef(null);
+  const input = useRef(null)
+  const searchBox = useRef(null)
 
   const handleOnPlacesChanged = useCallback(() => {
-      if (onPlacesChanged) {
-          onPlacesChanged(searchBox.current.getPlaces());
-      }
-  }, [onPlacesChanged, searchBox]);
+    if (onPlacesChanged) {
+      onPlacesChanged(searchBox.current.getPlaces())
+    }
+  }, [onPlacesChanged, searchBox])
 
   useEffect(() => {
-      if (!searchBox.current && maps) {
-          searchBox.current = new maps.places.SearchBox(input.current);
-          searchBox.current.addListener('places_changed', handleOnPlacesChanged);
+    if (!searchBox.current && maps) {
+      searchBox.current = new maps.places.SearchBox(input.current)
+      searchBox.current.addListener("places_changed", handleOnPlacesChanged)
+    }
+
+    return () => {
+      if (maps) {
+        searchBox.current = null
+        maps.event.clearInstanceListeners(searchBox)
       }
+    }
+  }, [maps, handleOnPlacesChanged])
 
-      return () => {
-          if (maps) {
-              searchBox.current = null;
-              maps.event.clearInstanceListeners(searchBox);
-          }
-      };
-  }, [maps, handleOnPlacesChanged]);
-
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault()
   }
 
