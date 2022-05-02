@@ -276,23 +276,8 @@ export default () => {
             <a href="mailto:media@oatcanada.com">media@oatcanada.com</a>
           </Text>
 
-          <Text sx={{ mt: 6, mb: "4px", fontWeight: "bold" }}>
-            Protein Industries Canada
-          </Text>
-          <Text>
-            Miranda Burski{" "}
-            <a href="mailto:miranda@proteinsupercluster.ca">miranda@proteinsupercluster.ca</a>
-          </Text>
 
-          <Text sx={{ mt: 6, mb: "4px", fontWeight: "bold" }}>
-            Roquette
-          </Text>
-          <Text>
-            Michelle Finley{" "}
-            <a href="mailto:michelle.finley@roquette.com">
-              michelle.finley@roquette.com
-            </a>
-          </Text>
+          
         </section>
       </Container>
     </Layout>
