@@ -62,8 +62,8 @@ export default () => {
                 textAlign: ["center", "center", "left"],
               }}
             >
-              Helping Canadians build <br />
-              healthy eating habits
+              169 Enterprise Blvd,  <br />
+              Markham, ON L6G 0E7
             </Text>
           </Box>
 
