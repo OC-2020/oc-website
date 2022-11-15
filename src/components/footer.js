@@ -62,7 +62,7 @@ export default () => {
                 textAlign: ["center", "center", "left"],
               }}
             >
-              169 Enterprise Blvd,  <br />
+              169 Enterprise Blvd  <br />
               Markham, ON L6G 0E7
             </Text>
           </Box>
