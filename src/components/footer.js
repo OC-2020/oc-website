@@ -237,7 +237,8 @@ export default () => {
           }}
         >
           
-          Copyright © <span id="currentDate"></span>Oat Canada.<br /> All Rights Reserved.
+          Copyright © 2023 Oat Canada. <br />
+          All Rights Reserved.
             
           <a
                 href="https://www.termsfeed.com/live/379ea87a-1737-4ce7-b990-6abddb5d9a87"
