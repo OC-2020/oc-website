@@ -236,8 +236,9 @@ export default () => {
             },
           }}
         >
+          <p>
           Copyright © <script>document.write(new Date().getFullYear());</script>Oat Canada.<br /> All Rights Reserved.
-             
+          </p>   
           <a
                 href="https://www.termsfeed.com/live/379ea87a-1737-4ce7-b990-6abddb5d9a87"
                 target="_blank"
